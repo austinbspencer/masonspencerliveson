@@ -1,5 +1,30 @@
 # How to add posts to the Recent Posts page
-Here are some instructions for adding posts to the recent posts page. You could also just check the posts.json file that already has several examples.
+Here are some instructions for adding posts to the recent posts page.
+
+
+## Using Python Script (Recommended)
+Add a post to the posts folder with the sequential number.
+
+- Here is the template for the post{num}.txt file
+```bash
+date September 02
+year 2020
+url some url
+attc some attachment link
+
+copy and paste post here
+```
+
+### Running Python Script
+Follow these commands in terminal to run the script
+
+```bash
+# Get into correct directory
+cd src/store/json
+
+# Execute the script
+python post_to_json.py
+```
 
 ## Template to copy and paste
 Below is a skeleton you can copy and paste into the posts.json file and it will be added to the page, note that the posts will display from top to bottom as they 
