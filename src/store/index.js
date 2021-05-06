@@ -3,11 +3,15 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+import allPosts from './json/posts.json'
+
 export default new Vuex.Store({
   state: {
+    posts: allPosts,
+    pfp: 'pfp.jpeg',
     items: [
       { title: 'Home', icon: 'mdi-home', to: '/' },
-      { title: 'Posts', icon: 'mdi-facebook', to: '/posts' },
+      // { title: 'Posts', icon: 'mdi-facebook', to: '/posts' },
       { title: 'About Mason', icon: 'mdi-information-outline', to: '/about' },
       { title: 'Donate', icon: 'mdi-emoticon-happy-outline', to: '/donate' },
 
@@ -35,6 +39,12 @@ export default new Vuex.Store({
     },
     links(state) {
       return state.links
+    },
+    pfp(state) {
+      return state.pfp
+    },
+    posts(state) {
+      return state.posts
     }
   },
   mutations: {
