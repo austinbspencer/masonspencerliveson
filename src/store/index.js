@@ -11,7 +11,7 @@ export default new Vuex.Store({
     pfp: 'pfp.jpeg',
     items: [
       { title: 'Home', icon: 'mdi-home', to: '/' },
-      // { title: 'Posts', icon: 'mdi-facebook', to: '/posts' },
+      { title: 'Posts', icon: 'mdi-facebook', to: '/posts' },
       { title: 'About Mason', icon: 'mdi-information-outline', to: '/about' },
       { title: 'Donate', icon: 'mdi-emoticon-happy-outline', to: '/donate' },
 
@@ -25,7 +25,12 @@ export default new Vuex.Store({
       {
         title: 'Cota',
         icon: 'mdi-facebook',
-        url: 'cotaforteamspencer.com'
+        url: 'https://cotaforteamspencer.com'
+      },
+      {
+        title: 'Donate',
+        icon: 'mdi-emoticon-happy-outline',
+        url: 'https://ilprairiecf.org/mason-spencer-lives-on-fund'
       }
     ],
     drawer: false,
