@@ -39,19 +39,20 @@
     </v-navigation-drawer>
 
     <v-app-bar
-      color="background"
+      color="primary lighten-2"
+      dark
       app
       hide-on-scroll
     >
       <v-app-bar-nav-icon
-        class="secondary--text d-md-none"
+        class="secondary--text"
         @click="changeDrawer()"
       ></v-app-bar-nav-icon>
 
       <v-toolbar-title>{{ $route.name }}</v-toolbar-title>
 
       <v-spacer></v-spacer>
-      <v-toolbar-items
+      <!-- <v-toolbar-items
         class="d-none d-md-flex"
         v-for="item,i in items"
         v-bind:key="i"
@@ -65,7 +66,7 @@
           {{item.title}}
         </v-btn>
 
-      </v-toolbar-items>
+      </v-toolbar-items> -->
       <v-btn
         @click="darkMode()"
         fab
@@ -113,7 +114,7 @@ export default {
       this.$vuetify.goTo(0);
     },
     changeDrawer() {
-      this.$store.commit("drawer", !this.drawer);
+      this.$store.commit("drawer", !this.status);
     },
   },
   computed: {

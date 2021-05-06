@@ -33,7 +33,7 @@ export default new Vuex.Store({
         url: 'https://ilprairiecf.org/mason-spencer-lives-on-fund'
       }
     ],
-    drawer: false,
+    drawer: true,
   },
   getters: {
     items(state) {
