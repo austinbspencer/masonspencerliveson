@@ -1,43 +1,37 @@
 <template>
-  <div>
-    <h1>Posts page</h1>
+  <div class="pt-5 pb-10">
+    <h1 class="text-center pb-5">Recent Posts</h1>
+    <v-container>
+      <div v-for="post in posts">
+        <post-card :post="post" />
+      </div>
+    </v-container>
   </div>
 </template>
 
 
 <script>
-window.fbAsyncInit = function () {
-  FB.init({
-    appId: "487445396033922",
-    cookie: true,
-    xfbml: true,
-    version: "v2.7",
-  });
+import PostCard from "../components/Posts/PostCard.vue";
 
-  FB.getLoginStatus(function (response) {
-    statusChangeCallback(response);
-  });
+export default {
+  name: "Posts",
+  components: {
+    "post-card": PostCard,
+  },
+  directives: {},
+  data() {
+    return {};
+  },
+  mounted() {
+    this.$store.commit("drawer", false);
+  },
+  methods: {},
+  computed: {
+    posts() {
+      return this.$store.getters.posts;
+    },
+  },
 };
-
-(function (d, s, id) {
-  var js,
-    fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {
-    return;
-  }
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://connect.facebook.net/en_US/sdk.js";
-  fjs.parentNode.insertBefore(js, fjs);
-})(document, "script", "facebook-jssdk");
-
-function statusChangeCallback(response) {
-  if (response.status === "connected") {
-    console.log("Logged in successfully");
-  } else {
-    console.log("Unable to log in");
-  }
-}
 </script>
 
 <style lang="scss" scoped>
