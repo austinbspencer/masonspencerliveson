@@ -78,6 +78,7 @@
             <v-list-item
               v-for="(item, index) in post.links"
               :key="index"
+              :href="item.url"
               link
             >
               <v-list-item-title>{{ item.title }}</v-list-item-title>
