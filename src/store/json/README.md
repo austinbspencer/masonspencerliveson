@@ -7,7 +7,8 @@ appear in the posts.json file
 
 ```bash
 {
-    "date": "January 22, 2021",
+    "date": "January 22",
+    "year": "2021",
     "pfp": "pfp.jpeg",
     "author": "Mason Spencer Lives On",
     "url": "",
