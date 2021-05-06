@@ -152,8 +152,10 @@ export default {
         if (this.value === 100) {
           this.value = 0;
           this.interval = {};
-          this.loading = false;
-          this.postsShowing = this.postsShowing + 5;
+          if (this.loading) {
+            this.postsShowing = this.postsShowing + 5;
+            this.loading = false;
+          }
           return;
         }
         this.value += 20;
