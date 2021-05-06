@@ -85,7 +85,7 @@
         fixed
         bottom
         right
-        color="primary"
+        color="secondary"
         @click="toTop"
       >
         <v-icon>mdi-arrow-up-thick</v-icon>

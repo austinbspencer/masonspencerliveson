@@ -10,6 +10,18 @@ export default new Vuex.Store({
       { title: 'About Mason', icon: 'mdi-information-outline', to: '/about' },
       { title: 'Donate', icon: 'mdi-emoticon-happy-outline', to: '/donate' }
     ],
+    links: [
+      {
+        title: 'Facebook',
+        icon: 'mdi-facebook',
+        url: 'https://www.facebook.com/Hope-for-Spencer-Boys-623432097701465/'
+      },
+      {
+        title: 'Cota',
+        icon: 'mdi-facebook',
+        url: 'cotaforteamspencer.com'
+      }
+    ],
     drawer: false,
   },
   getters: {
@@ -18,6 +30,9 @@ export default new Vuex.Store({
     },
     drawer(state) {
       return state.drawer
+    },
+    links(state) {
+      return state.links
     }
   },
   mutations: {
