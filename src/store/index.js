@@ -7,8 +7,10 @@ export default new Vuex.Store({
   state: {
     items: [
       { title: 'Home', icon: 'mdi-home', to: '/' },
+      { title: 'Posts', icon: 'mdi-facebook', to: '/posts' },
       { title: 'About Mason', icon: 'mdi-information-outline', to: '/about' },
-      { title: 'Donate', icon: 'mdi-emoticon-happy-outline', to: '/donate' }
+      { title: 'Donate', icon: 'mdi-emoticon-happy-outline', to: '/donate' },
+
     ],
     links: [
       {
