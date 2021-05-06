@@ -1,11 +1,29 @@
 <template>
-  <div class="pt-5 pb-10">
+  <v-container>
     <h1 class="text-center pb-5">Recent Posts</h1>
-    <v-container>
-      <div v-for="post in posts">
+    <div
+      v-for="post,i in posts"
+      :key="i"
+    >
+      <div v-show="i < postsShowing">
         <post-card :post="post" />
       </div>
-    </v-container>
+    </div>
+    <v-row
+      class="mt-10"
+      justify="center"
+      align-content="center"
+    >
+      <v-col cols="2">
+        <v-btn
+          text
+          @click="incrPostsShowing"
+        >
+          Show More ...
+        </v-btn>
+      </v-col>
+    </v-row>
+  </v-container>
   </div>
 </template>
 
@@ -20,12 +38,18 @@ export default {
   },
   directives: {},
   data() {
-    return {};
+    return {
+      postsShowing: 3,
+    };
   },
   mounted() {
     this.$store.commit("drawer", false);
   },
-  methods: {},
+  methods: {
+    incrPostsShowing() {
+      this.postsShowing = this.postsShowing + 1;
+    },
+  },
   computed: {
     posts() {
       return this.$store.getters.posts;
