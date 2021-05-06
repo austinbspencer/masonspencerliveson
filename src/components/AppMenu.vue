@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-navigation-drawer
-      v-model="drawer"
+      v-model="status"
       color="background"
       app
     >
@@ -45,7 +45,7 @@
     >
       <v-app-bar-nav-icon
         class="secondary--text d-md-none"
-        @click="drawer = !drawer"
+        @click="changeDrawer()"
       ></v-app-bar-nav-icon>
 
       <v-toolbar-title class="secondary--text">{{ $route.name }}</v-toolbar-title>
@@ -98,7 +98,6 @@
 export default {
   name: "Menu",
   data: () => ({
-    drawer: false,
     fab: false,
   }),
   methods: {
@@ -113,13 +112,21 @@ export default {
     toTop() {
       this.$vuetify.goTo(0);
     },
+    changeDrawer() {
+      this.$store.commit("drawer", !this.drawer);
+    },
   },
   computed: {
     items() {
       return this.$store.getters.items;
     },
-    projects() {
-      return this.$store.getters.projects;
+    status: {
+      get() {
+        return this.$store.state.drawer;
+      },
+      set(val) {
+        this.$store.commit("drawer", val);
+      },
     },
   },
 };
