@@ -22,6 +22,24 @@
             Oldest
           </v-btn>
           <v-btn
+            @click="year = '2017'"
+            text
+          >
+            2017
+          </v-btn>
+          <v-btn
+            @click="year = '2018'"
+            text
+          >
+            2018
+          </v-btn>
+          <v-btn
+            @click="year = '2019'"
+            text
+          >
+            2019
+          </v-btn>
+          <v-btn
             @click="year = '2020'"
             text
           >
