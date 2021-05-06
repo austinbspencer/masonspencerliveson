@@ -26,7 +26,7 @@
             lg="2"
             xl="2"
           >
-            <p>{{post.date}}</p>
+            <p>{{post.date}}, {{post.year}}</p>
           </v-col>
         </v-row>
 

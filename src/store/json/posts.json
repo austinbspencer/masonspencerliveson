@@ -1,6 +1,7 @@
 [
     {
-        "date": "January 22, 2021",
+        "date": "January 22",
+        "year": "2021",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1565912810285486&id=418764678333644",
@@ -63,7 +64,8 @@
         ]
     },
     {
-        "date": "January 18, 2021",
+        "date": "January 18",
+        "year": "2021",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1563570430519724&id=418764678333644",
@@ -85,7 +87,8 @@
         ]
     },
     {
-        "date": "September 10, 2020",
+        "date": "September 10",
+        "year": "2020",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1455869594623142&id=418764678333644",
@@ -99,7 +102,8 @@
         "message": []
     },
     {
-        "date": "September 07, 2020",
+        "date": "September 07",
+        "year": "2020",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1453706828172752&id=418764678333644",
@@ -108,7 +112,8 @@
         "message": []
     },
     {
-        "date": "September 03, 2020",
+        "date": "September 03",
+        "year": "2020",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1450320568511378&id=418764678333644",
@@ -117,7 +122,8 @@
         "message": []
     },
     {
-        "date": "September 02, 2020",
+        "date": "September 02",
+        "year": "2020",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1449613511915417&id=418764678333644",
@@ -131,7 +137,8 @@
         "message": []
     },
     {
-        "date": "September 02, 2020",
+        "date": "September 02",
+        "year": "2020",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1449501525259949&id=418764678333644",
@@ -145,7 +152,8 @@
         "message": []
     },
     {
-        "date": "August 26, 2020",
+        "date": "August 26",
+        "year": "2020",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1443318885878213&id=418764678333644",
