@@ -10,17 +10,29 @@
       </div>
     </div>
     <v-row
-      class="mt-10"
+      v-if="postsShowing < posts.length"
+      class="mt-10 mb-10"
       justify="center"
       align-content="center"
     >
       <v-col cols="2">
         <v-btn
+          v-show="!loading"
           text
           @click="incrPostsShowing"
         >
           Show More ...
         </v-btn>
+        <v-progress-circular
+          v-show="loading"
+          :rotate="360"
+          :size="100"
+          :width="15"
+          :value="value"
+          color="primary"
+        >
+          <!-- {{ value }} -->
+        </v-progress-circular>
       </v-col>
     </v-row>
   </v-container>
@@ -39,7 +51,10 @@ export default {
   directives: {},
   data() {
     return {
-      postsShowing: 3,
+      value: 0,
+      interval: {},
+      loading: false,
+      postsShowing: 5,
     };
   },
   mounted() {
@@ -47,7 +62,21 @@ export default {
   },
   methods: {
     incrPostsShowing() {
-      this.postsShowing = this.postsShowing + 1;
+      this.loading = true;
+      this.interval = setInterval(() => {
+        if (this.value === 100) {
+          this.value = 0;
+          this.interval = {};
+          this.loading = false;
+          this.postsShowing = this.postsShowing + 5;
+          return;
+        }
+        this.value += 20;
+      }, 500);
+      // setTimeout(() => {
+      //   this.postsShowing = this.postsShowing + 5;
+      //   this.loading = false;
+      // }, 500);
     },
   },
   computed: {
