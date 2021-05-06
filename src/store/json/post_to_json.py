@@ -56,35 +56,40 @@ def makeJson(f):
 
         for line in fh:
 
-            # Add the date
-            if line[:4] == 'date':
-                dict1['date'] = line[5:].rstrip()
+            # Check for empty line
+            if line != "\n":
 
-            # Add the year
-            elif line[:4] == 'year':
-                dict1['year'] = line[5:].rstrip()
+                # Add the date
+                if line[:4] == 'date':
+                    dict1['date'] = line[5:].rstrip()
 
-            # Add attachments if there are any
-            elif line[:4] == 'attc':
-                dict1['attachments'] = line[5:].rstrip()
+                # Add the year
+                elif line[:4] == 'year':
+                    dict1['year'] = line[5:].rstrip()
 
-            # Add the post url
-            elif line[:3] == 'url':
-                dict1['url'] = line[4:].rstrip()
+                # Add attachments if there are any
+                elif line[:4] == 'attc':
+                    dict1['attachments'] = line[5:].rstrip()
 
-            # Add paragraph content
-            elif line[0].isalpha():
-                if 'http' in line:
-                    dict1, line = linkFound(dict1, line)
-                dict1['message'].append(
-                    {'content': line.rstrip(), "type": "Paragraph"})
+                # Add the post url
+                elif line[:3] == 'url':
+                    dict1['url'] = line[4:].rstrip()
 
-            # Add bullet point content
+                # Add paragraph content
+                elif line[0].isalpha():
+                    if 'http' in line:
+                        dict1, line = linkFound(dict1, line)
+                    dict1['message'].append(
+                        {'content': line.rstrip(), "type": "Paragraph"})
+
+                # Add bullet point content
+                else:
+                    if 'http' in line:
+                        dict1, line = linkFound(dict1, line)
+                    dict1['message'].append(
+                        {'content': line[2:].rstrip(), "type": "Bullet"})
             else:
-                if 'http' in line:
-                    dict1, line = linkFound(dict1, line)
-                dict1['message'].append(
-                    {'content': line[2:].rstrip(), "type": "Bullet"})
+                print('empty line ignored')
 
         jsonList.append(dict1)
 
