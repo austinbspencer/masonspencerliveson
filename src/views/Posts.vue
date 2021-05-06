@@ -14,7 +14,9 @@ window.fbAsyncInit = function () {
     version: "v2.7",
   });
 
-  FB.AppEvents.logPageView();
+  FB.getLoginStatus(function (response) {
+    statusChangeCallback(response);
+  });
 };
 
 (function (d, s, id) {
@@ -29,9 +31,13 @@ window.fbAsyncInit = function () {
   fjs.parentNode.insertBefore(js, fjs);
 })(document, "script", "facebook-jssdk");
 
-FB.getLoginStatus(function (response) {
-  statusChangeCallback(response);
-});
+function statusChangeCallback(response) {
+  if (response.status === "connected") {
+    console.log("Logged in successfully");
+  } else {
+    console.log("Unable to log in");
+  }
+}
 </script>
 
 <style lang="scss" scoped>
