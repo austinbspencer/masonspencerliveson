@@ -11,23 +11,32 @@ class mydict(dict):
         return json.dumps(self)
 
 
+jsonList = []
+links = 0
+
+
 def linkFound(dict1, line):
     words = line.split()
+    global links
     for word in words:
         if 'http' in word:
+            links += 1
+            line = line.replace(
+                word, f'**The link is "Link {links}" at the bottom of this post!**')
             dict1['links'].append({
-                "title": "default",
+                "title": f"Link {links}",
                 "url": word
             })
-    return dict1
-
-
-jsonList = []
+    return dict1, line
 
 
 def makeJson(f):
     # the file to be converted
     filename = f
+
+    # Reset number of links
+    global links
+    links = 0
 
     # After running no values should be left as default
     dict1 = {
@@ -65,17 +74,17 @@ def makeJson(f):
 
             # Add paragraph content
             elif line[0].isalpha():
+                if 'http' in line:
+                    dict1, line = linkFound(dict1, line)
                 dict1['message'].append(
                     {'content': line.rstrip(), "type": "Paragraph"})
-                if 'http' in line:
-                    dict1 = linkFound(dict1, line)
 
             # Add bullet point content
             else:
+                if 'http' in line:
+                    dict1, line = linkFound(dict1, line)
                 dict1['message'].append(
                     {'content': line[2:].rstrip(), "type": "Bullet"})
-                if 'http' in line:
-                    dict1 = linkFound(dict1, line)
 
         jsonList.append(dict1)
 
