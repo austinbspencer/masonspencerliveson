@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-import allPosts from './json/posts.json'
+import allPosts from './json/out.json'
 
 export default new Vuex.Store({
   state: {

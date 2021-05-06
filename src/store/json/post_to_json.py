@@ -16,7 +16,7 @@ def linkFound(dict1, line):
     for word in words:
         if 'http' in word:
             dict1['links'].append({
-                "title": "some title",
+                "title": "default",
                 "url": word
             })
     return dict1
@@ -29,12 +29,13 @@ def makeJson(f):
     # the file to be converted
     filename = f
 
+    # After running no values should be left as default
     dict1 = {
-        "date": "",
-        "year": "",
+        "date": "default",
+        "year": "default",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
-        "url": "",
+        "url": "default",
         "attachments": None,
         "links": [
         ],
@@ -55,8 +56,12 @@ def makeJson(f):
                 dict1['year'] = line[5:].rstrip()
 
             # Add attachments if there are any
-            elif line[:4] == 'attch':
+            elif line[:4] == 'attc':
                 dict1['attachments'] = line[5:].rstrip()
+
+            # Add the post url
+            elif line[:3] == 'url':
+                dict1['url'] = line[4:].rstrip()
 
             # Add paragraph content
             elif line[0].isalpha():

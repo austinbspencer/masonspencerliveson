@@ -26,6 +26,8 @@ cd src/store/json
 python post_to_json.py
 ```
 
+- Next you need to replace the title of all links from default
+
 ## Template to copy and paste
 Below is a skeleton you can copy and paste into the posts.json file and it will be added to the page, note that the posts will display from top to bottom as they 
 appear in the posts.json file
