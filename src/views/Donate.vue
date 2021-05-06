@@ -5,7 +5,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    this.$store.commit("drawer", false);
+  },
+};
 </script>
 
 <style lang="scss" scoped>
