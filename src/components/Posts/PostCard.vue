@@ -21,7 +21,8 @@
             <h1 class="primary--text">{{post.author}}</h1>
           </v-col>
           <v-col
-            cols="4"
+            cols="12"
+            sm="4"
             md="2"
             lg="2"
             xl="2"
