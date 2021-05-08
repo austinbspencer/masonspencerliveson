@@ -34,6 +34,9 @@
           <v-list-item-content>
             <v-list-item-title v-text="item.title"></v-list-item-title>
           </v-list-item-content>
+          <v-list-item-icon>
+            <v-icon>mdi-chevron-up</v-icon>
+          </v-list-item-icon>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
