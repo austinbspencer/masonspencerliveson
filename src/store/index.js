@@ -59,6 +59,9 @@ export default new Vuex.Store({
     },
     posts(state) {
       return state.posts
+    },
+    information(state) {
+      return state.information
     }
   },
   mutations: {

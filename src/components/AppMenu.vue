@@ -34,10 +34,36 @@
           <v-list-item-content>
             <v-list-item-title v-text="item.title"></v-list-item-title>
           </v-list-item-content>
-          <v-list-item-icon>
-            <v-icon>mdi-chevron-up</v-icon>
-          </v-list-item-icon>
         </v-list-item>
+      </v-list>
+      <v-list>
+        <v-list-group
+          v-for="item in information"
+          :key="item.title"
+          v-model="item.active"
+          :to="item.to"
+          :prepend-icon="item.icon"
+          link
+        >
+          <template v-slot:activator>
+            <v-list-item-content>
+              <v-list-item-title v-text="item.title"></v-list-item-title>
+            </v-list-item-content>
+          </template>
+
+          <v-list-item
+            @click.stop
+            v-for="child in item.items"
+            :key="child.title"
+            v-model="child.active"
+            :to="child.to"
+          >
+            <v-list-item-content>
+              <v-list-item-title v-text="child.title"></v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+        </v-list-group>
       </v-list>
     </v-navigation-drawer>
 
@@ -123,6 +149,9 @@ export default {
   computed: {
     items() {
       return this.$store.getters.items;
+    },
+    information() {
+      return this.$store.getters.information;
     },
     status: {
       get() {
