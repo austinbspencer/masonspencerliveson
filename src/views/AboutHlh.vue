@@ -1,20 +1,18 @@
 <template>
   <div>
-    <h1>THis is our story!</h1>
+    <h1>About HLH</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "About",
+  name: "AboutHlh",
   components: {},
   directives: {},
   data() {
     return {};
   },
-  mounted() {
-    this.$store.commit("drawer", false);
-  },
+  mounted() {},
   methods: {},
 };
 </script>

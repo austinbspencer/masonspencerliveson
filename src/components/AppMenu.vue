@@ -36,7 +36,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-      <v-list>
+      <!-- <v-list>
         <v-list-group
           v-for="item in information"
           :key="item.title"
@@ -64,7 +64,7 @@
           </v-list-item>
 
         </v-list-group>
-      </v-list>
+      </v-list> -->
     </v-navigation-drawer>
 
     <v-app-bar
@@ -104,6 +104,25 @@
       >
         <v-icon class="secondary--text">mdi-invert-colors</v-icon>
       </v-btn>
+      <template
+        v-if="$route.name == 'Our Story'"
+        v-slot:extension
+      >
+        <v-tabs
+          v-model="tab"
+          align-with-title
+        >
+          <v-tabs-slider color="yellow"></v-tabs-slider>
+
+          <v-tab
+            v-for="item in information"
+            :key="item.title"
+            :to="item.to"
+          >
+            {{ item.title }}
+          </v-tab>
+        </v-tabs>
+      </template>
     </v-app-bar>
     <!-- Button that appears once you start scrolling on the page that will take you to the top -->
     <v-fab-transition>

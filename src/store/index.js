@@ -12,18 +12,15 @@ export default new Vuex.Store({
     items: [
       { title: 'Home', icon: 'mdi-home', to: '/' },
       { title: 'Posts', icon: 'mdi-facebook', to: '/posts' },
+      { title: 'Our Story', icon: 'mdi-information-outline', to: '/about' },
       // { title: 'Donate', icon: 'mdi-emoticon-happy-outline', to: '/donate' },
     ],
     information: [
-      {
-        title: "Our Story",
-        icon: "mdi-information-outline",
-        to: "/about",
-        items: [
-          { title: 'About Mason', icon: 'mdi-information-outline', to: '/about/mason' },
-          { title: 'About Austin', icon: 'mdi-information-outline', to: '/about/austin' },
-        ]
-      }
+      { title: 'Our Story', icon: 'mdi-information-outline', to: '/about' },
+      { title: 'Mason', icon: 'mdi-information-outline', to: '/about/mason' },
+      { title: 'Austin', icon: 'mdi-information-outline', to: '/about/austin' },
+      { title: 'HLH', to: '/about/hlh' },
+      { title: 'XLP2', to: '/about/xlp2' },
     ],
     links: [
       {
