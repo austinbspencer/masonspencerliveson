@@ -100,7 +100,7 @@
     <div
       v-if="year !== null"
       v-for="post,i in $options.filters.year(posts, year)"
-      :key="`oldest-${i}`"
+      :key="`years-${i}`"
     >
       <div v-show="i < postsShowing">
         <post-card :post="post" />
