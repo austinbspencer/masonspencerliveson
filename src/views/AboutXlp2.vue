@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-5">
+  <div class="pt-5 pb-5">
     <snack />
     <v-container>
       <v-card>
@@ -17,7 +17,7 @@
       <v-expansion-panels class="pt-5">
         <v-expansion-panel>
           <v-expansion-panel-header>
-            <strong>XIAP Deficiency Causes</strong>
+            <strong>Causes</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <causes />
@@ -25,7 +25,7 @@
         </v-expansion-panel>
         <v-expansion-panel>
           <v-expansion-panel-header>
-            <strong>XIAP Deficiency Signs, Symptoms and Other Problems</strong>
+            <strong>Signs, Symptoms and Other Problems</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <symptoms />
@@ -57,7 +57,7 @@
         </v-expansion-panel>
         <v-expansion-panel>
           <v-expansion-panel-header>
-            <strong>XIAP Deficiency Diagnosis</strong>
+            <strong>Diagnosis</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <diagnosis />
@@ -65,7 +65,7 @@
         </v-expansion-panel>
         <v-expansion-panel>
           <v-expansion-panel-header>
-            <strong>XIAP Deficiency Treatment</strong>
+            <strong>Treatment</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <treatment />
@@ -84,6 +84,7 @@ import HLH from "../components/About/XLP2/HLH.vue";
 import Hypogammaglobulinemia from "../components/About/XLP2/Hypogamma.vue";
 import Symptoms from "../components/About/XLP2/Symptoms.vue";
 import Treatment from "../components/About/XLP2/Treatment.vue";
+import Snack from "../components/About/XLP2/Snack.vue";
 
 export default {
   name: "AboutXlp2",
@@ -94,7 +95,8 @@ export default {
     hlh: HLH,
     hypogamma: Hypogammaglobulinemia,
     symptoms: Symptoms,
-    treatment: Treatment
+    treatment: Treatment,
+    snack: Snack
   },
   directives: {},
   data() {

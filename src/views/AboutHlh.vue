@@ -19,7 +19,7 @@
       <v-expansion-panels class="pt-5">
         <v-expansion-panel>
           <v-expansion-panel-header>
-            <strong>What causes HLH</strong>
+            <strong>Causes</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <causes />
@@ -27,7 +27,7 @@
         </v-expansion-panel>
         <v-expansion-panel>
           <v-expansion-panel-header>
-            <strong>What are the symptoms of HLH</strong>
+            <strong>Symptoms</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <symptoms />
@@ -35,7 +35,7 @@
         </v-expansion-panel>
         <v-expansion-panel>
           <v-expansion-panel-header>
-            <strong>How is HLH diagnosed</strong>
+            <strong>Diagnosed</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <diagnose />
@@ -43,7 +43,7 @@
         </v-expansion-panel>
         <v-expansion-panel>
           <v-expansion-panel-header>
-            <strong>How is HLH treated</strong>
+            <strong>Treatments</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <treatments />
