@@ -36,7 +36,7 @@
             <strong>XIAP Deficiency and Hemophagocytic Lymphohistiocytosis (HLH)</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
-            <diagnose />
+            <hlh />
           </v-expansion-panel-content>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -44,7 +44,7 @@
             <strong>XIAP Deficiency and Hypogammaglobulinemia</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
-            <treatments />
+            <hypogamma />
           </v-expansion-panel-content>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -52,7 +52,7 @@
             <strong>XIAP Deficiency and Inflammatory Bowel Disease</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
-            <treatments />
+            <bowel />
           </v-expansion-panel-content>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -60,7 +60,7 @@
             <strong>XIAP Deficiency Diagnosis</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
-            <treatments />
+            <diagnosis />
           </v-expansion-panel-content>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -68,7 +68,7 @@
             <strong>XIAP Deficiency Treatment</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
-            <treatments />
+            <treatment />
           </v-expansion-panel-content>
         </v-expansion-panel>
       </v-expansion-panels>
@@ -77,9 +77,25 @@
 </template>
 
 <script>
+import Bowel from "../components/About/XLP2/Bowel.vue";
+import Causes from "../components/About/XLP2/Causes.vue";
+import Diagnosis from "../components/About/XLP2/Diagnosis.vue";
+import HLH from "../components/About/XLP2/HLH.vue";
+import Hypogammaglobulinemia from "../components/About/XLP2/Hypogamma.vue";
+import Symptoms from "../components/About/XLP2/Symptoms.vue";
+import Treatment from "../components/About/XLP2/Treatment.vue";
+
 export default {
   name: "AboutXlp2",
-  components: {},
+  components: {
+    bowel: Bowel,
+    causes: Causes,
+    diagnosis: Diagnosis,
+    hlh: HLH,
+    hypogamma: Hypogammaglobulinemia,
+    symptoms: Symptoms,
+    treatment: Treatment
+  },
   directives: {},
   data() {
     return {};

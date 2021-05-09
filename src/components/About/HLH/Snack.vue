@@ -5,7 +5,7 @@
       :timeout="timeout"
       top
     >
-      This information is from <a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/hemophagocytic-lymphohistiocystosis#:~:text=Hemophagocytic%20lymphohistiocytosis%20(HLH)%20is%20a,and%20cancer%2C%20can%20cause%20HLH.">Johns Hopkins</a>
+      This information is from <a href="https://www.cincinnatichildrens.org/health/h/hemophagocytic-lymphohistiocytosis-hlh">Cincinnati Children's Hospital</a>
 
       <template v-slot:action="{ attrs }">
         <v-btn
