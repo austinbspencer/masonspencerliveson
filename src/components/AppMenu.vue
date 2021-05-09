@@ -115,8 +115,8 @@
           <v-tabs-slider color="yellow"></v-tabs-slider>
 
           <v-tab
-            v-for="item in information"
-            :key="item.title"
+            v-for="item,i in information"
+            :key="i"
             :to="item.to"
           >
             {{ item.title }}
@@ -147,7 +147,7 @@
 export default {
   name: "Menu",
   data: () => ({
-    fab: false,
+    fab: false
   }),
   methods: {
     darkMode() {
@@ -163,7 +163,7 @@ export default {
     },
     changeDrawer() {
       this.$store.commit("drawer", !this.status);
-    },
+    }
   },
   computed: {
     items() {
@@ -178,8 +178,8 @@ export default {
       },
       set(val) {
         this.$store.commit("drawer", val);
-      },
-    },
-  },
+      }
+    }
+  }
 };
 </script>
