@@ -1,18 +1,19 @@
 <template>
   <div class="pt-5">
+    <snack />
     <v-container>
       <v-card>
         <div
           style="text-align: center"
           class="pt-3 pb-3"
         >
-          <h1>Hemophagocytic Lymphohistiocystosis</h1>
+          <h1>Hemophagocytic Lymphohistiocystosis (HLH)</h1>
         </div>
         <v-divider></v-divider>
         <v-card-text>
-          <p class="primary--text">Hemophagocytic lymphohistiocytosis (HLH) is a rare disease that usually occurs in infants and young children. It may also occur in adults. Children usually inherit the disease. In adults, many different conditions, including infections and cancer, can cause HLH.</p>
+          <p class="opposite--text">Hemophagocytic lymphohistiocytosis, also called HLH, is an immune deficiency disorder. In this type of disorder, part of the immune system is missing or defective. That means the body can’t fight infections as it should. As a result, a person with HLH may have frequent infections that are generally more severe and last longer than usual.</p>
 
-          <p class="primary--text">If you have HLH, your body's defense system, called your immune system, does not work normally. Certain white blood cells — histiocytes and lymphocytes — attack your other blood cells. These abnormal blood cells collect in your spleen and liver, causing these organs to enlarge.</p>
+          <p class="opposite--text">With HLH, certain white blood cells, (T lymphocytes and macrophages), are not able to be switched off and build up in organs including the skin, spleen, and liver. These cells then destroy other blood cells such as red blood cells, platelets and neutrophils, along with causing damage to affected organs.</p>
         </v-card-text>
       </v-card>
       <v-expansion-panels class="pt-5">
@@ -54,10 +55,11 @@
 </template>
 
 <script>
-import Causes from "../components/HLH/Causes.vue";
-import Symptoms from "../components/HLH/Symptoms.vue";
-import Diagnose from "../components/HLH/Dignose.vue";
-import Treatments from "../components/HLH/Treatments.vue";
+import Causes from "../components/About/HLH/Causes.vue";
+import Symptoms from "../components/About/HLH/Symptoms.vue";
+import Diagnose from "../components/About/HLH/Dignose.vue";
+import Treatments from "../components/About/HLH/Treatments.vue";
+import Snack from "../components/About/HLH/Snack.vue";
 
 export default {
   name: "AboutHlh",
@@ -65,19 +67,12 @@ export default {
     causes: Causes,
     symptoms: Symptoms,
     diagnose: Diagnose,
-    treatments: Treatments
+    treatments: Treatments,
+    snack: Snack
   },
   directives: {},
   data() {
-    return {
-      faq: [
-        "What causes HLH",
-        "What are the symptoms of HLH",
-        "How is HLH diagnosed",
-        "How is HLH treated"
-      ],
-      content: ["", "", "", ""]
-    };
+    return {};
   },
   mounted() {},
   methods: {}

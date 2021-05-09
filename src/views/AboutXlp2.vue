@@ -1,6 +1,78 @@
 <template>
-  <div>
-    <h1>About XLP2</h1>
+  <div class="pt-5">
+    <snack />
+    <v-container>
+      <v-card>
+        <div
+          style="text-align: center"
+          class="pt-3 pb-3"
+        >
+          <h1>X-Linked Lymphoproliferative Disease 2 (XLP2) / XIAP Deficiency</h1>
+        </div>
+        <v-divider></v-divider>
+        <v-card-text>
+          <p class="opposite--text">XLP2 is a type of <a href="https://www.cincinnatichildrens.org/health/x/x-linked-lymphoproliferative-disease">X-linked lymphoproliferative disease</a>. XLP2 typically affects boys. It can also occasionally affect girls. The condition was first described in 2006. Only about 100 boys have been diagnosed with it so far.</p>
+        </v-card-text>
+      </v-card>
+      <v-expansion-panels class="pt-5">
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            <strong>XIAP Deficiency Causes</strong>
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <causes />
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            <strong>XIAP Deficiency Signs, Symptoms and Other Problems</strong>
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <symptoms />
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            <strong>XIAP Deficiency and Hemophagocytic Lymphohistiocytosis (HLH)</strong>
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <diagnose />
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            <strong>XIAP Deficiency and Hypogammaglobulinemia</strong>
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <treatments />
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            <strong>XIAP Deficiency and Inflammatory Bowel Disease</strong>
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <treatments />
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            <strong>XIAP Deficiency Diagnosis</strong>
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <treatments />
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+        <v-expansion-panel>
+          <v-expansion-panel-header>
+            <strong>XIAP Deficiency Treatment</strong>
+          </v-expansion-panel-header>
+          <v-expansion-panel-content>
+            <treatments />
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+      </v-expansion-panels>
+    </v-container>
   </div>
 </template>
 
@@ -13,7 +85,7 @@ export default {
     return {};
   },
   mounted() {},
-  methods: {},
+  methods: {}
 };
 </script>
 
