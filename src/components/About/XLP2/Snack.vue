@@ -3,10 +3,11 @@
     <v-snackbar
       v-model="snackbar"
       :timeout="timeout"
-      top
+      color="opposite"
     >
-      This information is from <a href="https://www.cincinnatichildrens.org/health/x/x-linked-lymphoproliferative-disease-2-xlp2">Cincinnati Children's Hospital</a>
-
+      <div class="background--text">
+        This information is from <a href="https://www.cincinnatichildrens.org/health/x/x-linked-lymphoproliferative-disease-2-xlp2">Cincinnati Children's Hospital</a>
+      </div>
       <template v-slot:action="{ attrs }">
         <v-btn
           color="primary"
@@ -29,7 +30,7 @@ export default {
   data: () => ({
     snackbar: true,
     text: "",
-    timeout: 2000
+    timeout: 4000
   }),
   mounted() {},
   methods: {}
