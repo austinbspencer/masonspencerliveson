@@ -111,12 +111,13 @@
         <v-tabs
           v-model="tab"
           align-with-title
+          dark
         >
           <v-tabs-slider color="yellow"></v-tabs-slider>
 
           <v-tab
-            v-for="item,i in information"
-            :key="i"
+            v-for="item in information"
+            :key="item.title"
             :to="item.to"
           >
             {{ item.title }}
