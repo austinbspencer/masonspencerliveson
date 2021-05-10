@@ -8,14 +8,14 @@ export default new Vuetify({
         dark: false,
         themes: {
             dark: {
-                // primary: "#FF7028",
+                primary: "#1969BB",
                 // secondary: "#FFFFFD",
                 // accent: "693D2A",
                 opposite: "#FFFFFF",
                 background: "#272727",
             },
             light: {
-                // primary: "#5D0F2F",
+                primary: "#1969BB",
                 secondary: "#212121",
                 // accent: colors.blueGrey.base,
                 opposite: "#000000",
