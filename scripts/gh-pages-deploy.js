@@ -1,4 +1,3 @@
-
 const execa = require('execa')
 const emoji = require('node-emoji')
 const chalk = require('chalk')
