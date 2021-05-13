@@ -3,15 +3,22 @@
     <snack />
     <v-container>
       <v-card>
-        <div
-          style="text-align: center"
-          class="pt-3 pb-3"
-        >
-          <h1>X-Linked Lymphoproliferative Disease 2 (XLP2) / XIAP Deficiency</h1>
+        <div style="text-align: center" class="pt-3 pb-3">
+          <h1>
+            X-Linked Lymphoproliferative Disease 2 (XLP2) / XIAP Deficiency
+          </h1>
         </div>
         <v-divider></v-divider>
         <v-card-text>
-          <p class="opposite--text">XLP2 is a type of <a href="https://www.cincinnatichildrens.org/health/x/x-linked-lymphoproliferative-disease">X-linked lymphoproliferative disease</a>. XLP2 typically affects boys. It can also occasionally affect girls. The condition was first described in 2006. Only about 100 boys have been diagnosed with it so far.</p>
+          <p class="opposite--text">
+            XLP2 is a type of
+            <a
+              href="https://www.cincinnatichildrens.org/health/x/x-linked-lymphoproliferative-disease"
+              >X-linked lymphoproliferative disease</a
+            >. XLP2 typically affects boys. It can also occasionally affect
+            girls. The condition was first described in 2006. Only about 100
+            boys have been diagnosed with it so far.
+          </p>
         </v-card-text>
       </v-card>
       <v-expansion-panels class="pt-5">
@@ -33,7 +40,10 @@
         </v-expansion-panel>
         <v-expansion-panel>
           <v-expansion-panel-header>
-            <strong>XIAP Deficiency and Hemophagocytic Lymphohistiocytosis (HLH)</strong>
+            <strong
+              >XIAP Deficiency and Hemophagocytic Lymphohistiocytosis
+              (HLH)</strong
+            >
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <hlh />
@@ -96,16 +106,15 @@ export default {
     hypogamma: Hypogammaglobulinemia,
     symptoms: Symptoms,
     treatment: Treatment,
-    snack: Snack
+    snack: Snack,
   },
   directives: {},
   data() {
     return {};
   },
   mounted() {},
-  methods: {}
+  methods: {},
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

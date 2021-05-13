@@ -1,10 +1,6 @@
 <template>
   <div>
-    <v-navigation-drawer
-      v-model="status"
-      color="background"
-      app
-    >
+    <v-navigation-drawer v-model="status" color="background" app>
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title primary--text">
@@ -17,16 +13,8 @@
 
       <v-divider></v-divider>
 
-      <v-list
-        dense
-        nav
-      >
-        <v-list-item
-          v-for="item in items"
-          :key="item.title"
-          :to="item.to"
-          link
-        >
+      <v-list dense nav>
+        <v-list-item v-for="item in items" :key="item.title" :to="item.to" link>
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-icon>
@@ -67,12 +55,7 @@
       </v-list> -->
     </v-navigation-drawer>
 
-    <v-app-bar
-      color="primary lighten-2"
-      dark
-      app
-      hide-on-scroll
-    >
+    <v-app-bar color="primary lighten-2" dark app hide-on-scroll>
       <v-app-bar-nav-icon
         class="secondary--text"
         @click="changeDrawer()"
@@ -96,30 +79,14 @@
         </v-btn>
 
       </v-toolbar-items> -->
-      <v-btn
-        @click="darkMode()"
-        fab
-        elevation="1"
-        icon
-      >
+      <v-btn fab elevation="1" icon @click="darkMode()">
         <v-icon class="secondary--text">mdi-invert-colors</v-icon>
       </v-btn>
-      <template
-        v-if="$route.name == 'Our Story'"
-        v-slot:extension
-      >
-        <v-tabs
-          v-model="tab"
-          align-with-title
-          dark
-        >
+      <template v-if="$route.name == 'Our Story'" #extension>
+        <v-tabs v-model="tab" align-with-title dark>
           <v-tabs-slider color="yellow"></v-tabs-slider>
 
-          <v-tab
-            v-for="item in information"
-            :key="item.title"
-            :to="item.to"
-          >
+          <v-tab v-for="item in information" :key="item.title" :to="item.to">
             {{ item.title }}
           </v-tab>
         </v-tabs>
@@ -128,8 +95,8 @@
     <!-- Button that appears once you start scrolling on the page that will take you to the top -->
     <v-fab-transition>
       <v-btn
-        v-scroll="onScroll"
         v-show="fab"
+        v-scroll="onScroll"
         fab
         dark
         fixed
@@ -148,8 +115,24 @@
 export default {
   name: "Menu",
   data: () => ({
-    fab: false
+    fab: false,
   }),
+  computed: {
+    items() {
+      return this.$store.getters.items;
+    },
+    information() {
+      return this.$store.getters.information;
+    },
+    status: {
+      get() {
+        return this.$store.state.drawer;
+      },
+      set(val) {
+        this.$store.commit("drawer", val);
+      },
+    },
+  },
   methods: {
     darkMode() {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
@@ -164,23 +147,7 @@ export default {
     },
     changeDrawer() {
       this.$store.commit("drawer", !this.status);
-    }
+    },
   },
-  computed: {
-    items() {
-      return this.$store.getters.items;
-    },
-    information() {
-      return this.$store.getters.information;
-    },
-    status: {
-      get() {
-        return this.$store.state.drawer;
-      },
-      set(val) {
-        this.$store.commit("drawer", val);
-      }
-    }
-  }
 };
 </script>

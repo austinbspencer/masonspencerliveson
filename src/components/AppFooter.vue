@@ -1,18 +1,9 @@
 <template>
   <div>
-    <v-footer
-      color="primary lighten-1"
-      app
-      absolute
-      dark
-      padless
-    >
-      <v-row
-        justify="center"
-        no-gutters
-      >
+    <v-footer color="primary lighten-1" app absolute dark padless>
+      <v-row justify="center" no-gutters>
         <v-btn
-          v-for="link,i in links"
+          v-for="(link, i) in links"
           :key="i"
           color="white"
           :href="link.url"
@@ -22,11 +13,9 @@
         >
           {{ link.title }}
         </v-btn>
-        <v-col
-          class="primary lighten-2 py-4 text-center white--text"
-          cols="12"
-        >
-          {{ new Date().getFullYear() }} — <strong>Mason Spencer Lives On</strong>
+        <v-col class="primary lighten-2 py-4 text-center white--text" cols="12">
+          {{ new Date().getFullYear() }} —
+          <strong>Mason Spencer Lives On</strong>
         </v-col>
       </v-row>
     </v-footer>
@@ -44,5 +33,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

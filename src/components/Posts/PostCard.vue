@@ -5,50 +5,31 @@
         <v-row>
           <v-col cols="4">
             <v-avatar size="56">
-              <img
-                alt="user"
-                :src="post.pfp"
-              >
+              <img alt="user" :src="post.pfp" />
             </v-avatar>
           </v-col>
-          <v-col
-            cols="12"
-            sm="8"
-            md="6"
-            lg="6"
-            xl="6"
-          >
-            <h1 class="primary--text">{{post.author}}</h1>
+          <v-col cols="12" sm="8" md="6" lg="6" xl="6">
+            <h1 class="primary--text">{{ post.author }}</h1>
           </v-col>
-          <v-col
-            cols="12"
-            sm="4"
-            md="2"
-            lg="2"
-            xl="2"
-          >
-            <p>{{post.date}}, {{post.year}}</p>
+          <v-col cols="12" sm="4" md="2" lg="2" xl="2">
+            <p>{{ post.date }}, {{ post.year }}</p>
           </v-col>
         </v-row>
-
       </v-card-title>
       <v-divider></v-divider>
       <v-row justify="center">
         <v-col cols="10">
           <v-card-text class="pt-3">
-            <div
-              v-for="message,i in post.message"
-              :key="i"
-            >
+            <div v-for="(message, i) in post.message" :key="i">
               <div v-if="message.type === 'Paragraph'">
                 <div class="pb-3">
-                  {{message.content}}
+                  {{ message.content }}
                 </div>
               </div>
               <div v-else-if="message.type === 'Bullet'">
                 <ul class="pb-3">
                   <li>
-                    {{message.content}}
+                    {{ message.content }}
                   </li>
                 </ul>
               </div>
@@ -56,16 +37,10 @@
           </v-card-text>
         </v-col>
       </v-row>
-      <v-img
-        v-if="post.attachments"
-        :src="post.attachments"
-      ></v-img>
+      <v-img v-if="post.attachments" :src="post.attachments"></v-img>
       <v-divider></v-divider>
       <v-card-actions>
-        <v-menu
-          bottom
-          offset-y
-        >
+        <v-menu bottom offset-y>
           <template #activator="{ on, attrs }">
             <v-btn
               color="primary"
@@ -90,13 +65,7 @@
           </v-list>
         </v-menu>
 
-        <v-btn
-          color="primary"
-          text
-          right
-          absolute
-          :href="post.url"
-        >
+        <v-btn color="primary" text right absolute :href="post.url">
           View On Facebook
         </v-btn>
       </v-card-actions>
@@ -116,19 +85,18 @@ export default {
         { title: "Click Me" },
         { title: "Click Me" },
         { title: "Click Me" },
-        { title: "Click Me 2" }
-      ]
+        { title: "Click Me 2" },
+      ],
     };
   },
   computed: {
     pfp() {
       return this.$store.getters.pfp;
-    }
+    },
   },
   mounted() {},
-  methods: {}
+  methods: {},
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

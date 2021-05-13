@@ -1,8 +1,10 @@
 <template>
   <div>
-    Between 17% and 22% of children with XIAP develop inflammatory bowel disease. This condition leads to inflammation in the gastrointestinal tract. It causes symptoms such as:
-    <br>
-    <br>
+    Between 17% and 22% of children with XIAP develop inflammatory bowel
+    disease. This condition leads to inflammation in the gastrointestinal tract.
+    It causes symptoms such as:
+    <br />
+    <br />
     <ul>
       <li>Diarrhea</li>
       <li>Abdominal pain</li>
@@ -16,5 +18,4 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

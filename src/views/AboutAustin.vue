@@ -1,21 +1,10 @@
 <template>
   <div class="about pa-5">
     <v-row justify="space-around">
-      <v-col
-        cols="12"
-        sm="10"
-        md="6"
-        lg="6"
-        xl="6"
-      >
+      <v-col cols="12" sm="10" md="6" lg="6" xl="6">
         <austin-bio />
       </v-col>
-      <v-col
-        cols="10"
-        md="6"
-        lg="6"
-        xl="6"
-      >
+      <v-col cols="10" md="6" lg="6" xl="6">
         <carousel-card />
       </v-col>
     </v-row>
@@ -41,5 +30,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

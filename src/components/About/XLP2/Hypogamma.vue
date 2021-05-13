@@ -1,11 +1,12 @@
 <template>
   <div>
-    About one-quarter to one-third of children with XIAP deficiency develop lower-than-normal antibody levels or hypogammaglobulinemia.
-    <br>
-    <br>
+    About one-quarter to one-third of children with XIAP deficiency develop
+    lower-than-normal antibody levels or hypogammaglobulinemia.
+    <br />
+    <br />
     Signs and symptoms include:
-    <br>
-    <br>
+    <br />
+    <br />
     <ul>
       <li>Repeating or serious infections</li>
       <li>Cough</li>
@@ -19,5 +20,4 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

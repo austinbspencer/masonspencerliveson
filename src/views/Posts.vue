@@ -3,55 +3,14 @@
   <v-container>
     <v-row class="mt-10 mb-10">
       <v-col>
-        <v-btn-toggle
-          v-model="toggle_posts"
-          color="primary"
-        >
-
-          <v-btn
-            v-model="recent"
-            text
-            @click="year = null"
-          >
-            Recent
-          </v-btn>
-          <v-btn
-            v-model="oldest"
-            text
-            @click="year = null"
-          >
-            Oldest
-          </v-btn>
-          <v-btn
-            text
-            @click="year = '2017'"
-          >
-            2017
-          </v-btn>
-          <v-btn
-            text
-            @click="year = '2018'"
-          >
-            2018
-          </v-btn>
-          <v-btn
-            text
-            @click="year = '2019'"
-          >
-            2019
-          </v-btn>
-          <v-btn
-            text
-            @click="year = '2020'"
-          >
-            2020
-          </v-btn>
-          <v-btn
-            text
-            @click="year = '2021'"
-          >
-            2021
-          </v-btn>
+        <v-btn-toggle v-model="toggle_posts" color="primary">
+          <v-btn v-model="recent" text @click="year = null"> Recent </v-btn>
+          <v-btn v-model="oldest" text @click="year = null"> Oldest </v-btn>
+          <v-btn text @click="year = '2017'"> 2017 </v-btn>
+          <v-btn text @click="year = '2018'"> 2018 </v-btn>
+          <v-btn text @click="year = '2019'"> 2019 </v-btn>
+          <v-btn text @click="year = '2020'"> 2020 </v-btn>
+          <v-btn text @click="year = '2021'"> 2021 </v-btn>
 
           <!-- <v-menu
             bottom
@@ -81,7 +40,7 @@
       </v-col>
     </v-row>
     <div
-      v-for="post,i in posts"
+      v-for="(post, i) in posts"
       v-if="recent || (!oldest && year === null)"
       :key="`recent-${i}`"
     >
@@ -90,7 +49,7 @@
       </div>
     </div>
     <div
-      v-for="post,i in $options.filters.reverse(posts)"
+      v-for="(post, i) in $options.filters.reverse(posts)"
       v-if="oldest"
       :key="`oldest-${i}`"
     >
@@ -99,7 +58,7 @@
       </div>
     </div>
     <div
-      v-for="post,i in $options.filters.year(posts, year)"
+      v-for="(post, i) in $options.filters.year(posts, year)"
       v-if="year !== null"
       :key="`years-${i}`"
     >
@@ -114,11 +73,7 @@
       align-content="center"
     >
       <v-col cols="2">
-        <v-btn
-          v-show="!loading"
-          text
-          @click="incrPostsShowing"
-        >
+        <v-btn v-show="!loading" text @click="incrPostsShowing">
           Show More ...
         </v-btn>
         <v-progress-circular
@@ -136,14 +91,13 @@
   </v-container>
 </template>
 
-
 <script>
 import PostCard from "../components/Posts/PostCard.vue";
 
 export default {
   name: "Posts",
   components: {
-    "post-card": PostCard
+    "post-card": PostCard,
   },
   directives: {},
   filters: {
@@ -154,7 +108,7 @@ export default {
       return array.filter(function (item) {
         return item.year === year;
       });
-    }
+    },
   },
   data() {
     return {
@@ -167,13 +121,13 @@ export default {
       interval: {},
       loading: false,
       postsShowing: 3,
-      links: ["2020", "2021"]
+      links: ["2020", "2021"],
     };
   },
   computed: {
     posts() {
       return this.$store.getters.posts;
-    }
+    },
   },
   mounted() {
     this.$store.commit("drawer", false);
@@ -197,10 +151,9 @@ export default {
       //   this.postsShowing = this.postsShowing + 5;
       //   this.loading = false;
       // }, 500);
-    }
-  }
+    },
+  },
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

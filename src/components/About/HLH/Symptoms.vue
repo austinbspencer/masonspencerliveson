@@ -1,8 +1,10 @@
 <template>
   <div>
-    HLH can be challenging to diagnose because the initial symptoms may mimic common infections. Symptoms of HLH that you may notice in your child include:
-    <br>
-    <br>
+    HLH can be challenging to diagnose because the initial symptoms may mimic
+    common infections. Symptoms of HLH that you may notice in your child
+    include:
+    <br />
+    <br />
     <ul>
       <li>Persistent fevers</li>
       <li>Rash</li>
@@ -12,10 +14,10 @@
       <li>Seizures</li>
       <li>Altered mental status</li>
     </ul>
-    <br>
+    <br />
     Other issues that your child's doctor may find include:
-    <br>
-    <br>
+    <br />
+    <br />
     <ul>
       <li>Hepatitis</li>
       <li>Liver failure</li>
@@ -30,5 +32,4 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

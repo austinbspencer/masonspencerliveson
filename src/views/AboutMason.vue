@@ -1,21 +1,10 @@
 <template>
   <div class="about pa-5">
     <v-row justify="space-around">
-      <v-col
-        cols="12"
-        sm="10"
-        md="6"
-        lg="6"
-        xl="6"
-      >
+      <v-col cols="12" sm="10" md="6" lg="6" xl="6">
         <mason-bio />
       </v-col>
-      <v-col
-        cols="10"
-        md="6"
-        lg="6"
-        xl="6"
-      >
+      <v-col cols="10" md="6" lg="6" xl="6">
         <carousel-card />
       </v-col>
     </v-row>
@@ -30,11 +19,11 @@ export default {
   name: "About",
   components: {
     "mason-bio": MasonBio,
-    "carousel-card": CarouselCard
+    "carousel-card": CarouselCard,
   },
   directives: {},
   data: () => ({}),
   mounted() {},
-  methods: {}
+  methods: {},
 };
 </script>

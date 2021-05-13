@@ -3,17 +3,27 @@
     <snack />
     <v-container>
       <v-card>
-        <div
-          style="text-align: center"
-          class="pt-3 pb-3"
-        >
+        <div style="text-align: center" class="pt-3 pb-3">
           <h1>Hemophagocytic Lymphohistiocystosis (HLH)</h1>
         </div>
         <v-divider></v-divider>
         <v-card-text>
-          <p class="opposite--text">Hemophagocytic lymphohistiocytosis, also called HLH, is an immune deficiency disorder. In this type of disorder, part of the immune system is missing or defective. That means the body can’t fight infections as it should. As a result, a person with HLH may have frequent infections that are generally more severe and last longer than usual.</p>
+          <p class="opposite--text">
+            Hemophagocytic lymphohistiocytosis, also called HLH, is an immune
+            deficiency disorder. In this type of disorder, part of the immune
+            system is missing or defective. That means the body can’t fight
+            infections as it should. As a result, a person with HLH may have
+            frequent infections that are generally more severe and last longer
+            than usual.
+          </p>
 
-          <p class="opposite--text">With HLH, certain white blood cells, (T lymphocytes and macrophages), are not able to be switched off and build up in organs including the skin, spleen, and liver. These cells then destroy other blood cells such as red blood cells, platelets and neutrophils, along with causing damage to affected organs.</p>
+          <p class="opposite--text">
+            With HLH, certain white blood cells, (T lymphocytes and
+            macrophages), are not able to be switched off and build up in organs
+            including the skin, spleen, and liver. These cells then destroy
+            other blood cells such as red blood cells, platelets and
+            neutrophils, along with causing damage to affected organs.
+          </p>
         </v-card-text>
       </v-card>
       <v-expansion-panels class="pt-5">
@@ -68,16 +78,15 @@ export default {
     symptoms: Symptoms,
     diagnose: Diagnose,
     treatments: Treatments,
-    snack: Snack
+    snack: Snack,
   },
   directives: {},
   data() {
     return {};
   },
   mounted() {},
-  methods: {}
+  methods: {},
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
