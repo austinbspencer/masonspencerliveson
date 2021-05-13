@@ -78,6 +78,7 @@ export default {
   name: "Postcard",
   components: {},
   directives: {},
+  // eslint-disable-next-line
   props: ["post"],
   data() {
     return {

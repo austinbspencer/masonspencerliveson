@@ -11,31 +11,6 @@
           <v-btn text @click="year = '2019'"> 2019 </v-btn>
           <v-btn text @click="year = '2020'"> 2020 </v-btn>
           <v-btn text @click="year = '2021'"> 2021 </v-btn>
-
-          <!-- <v-menu
-            bottom
-            offset-y
-          >
-            <template v-slot:activator="{ on, attrs }">
-              <v-btn
-                text
-                v-bind="attrs"
-                v-on="on"
-              >
-                {{year || 'Specific Year'}}
-              </v-btn>
-            </template>
-
-            <v-list>
-              <v-list-item
-                v-for="(item, index) in links"
-                :key="index"
-                @click="year = item"
-              >
-                <v-list-item-title>{{ item }}</v-list-item-title>
-              </v-list-item>
-            </v-list>
-          </v-menu> -->
         </v-btn-toggle>
       </v-col>
     </v-row>
