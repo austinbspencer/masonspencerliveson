@@ -30,13 +30,11 @@ export default {
   name: "About",
   components: {
     "mason-bio": MasonBio,
-    "carousel-card": CarouselCard,
+    "carousel-card": CarouselCard
   },
   directives: {},
   data: () => ({}),
-  mounted() {
-    this.$store.commit("drawer", false);
-  },
-  methods: {},
+  mounted() {},
+  methods: {}
 };
 </script>
