@@ -143,7 +143,7 @@ import PostCard from "../components/Posts/PostCard.vue";
 export default {
   name: "Posts",
   components: {
-    "post-card": PostCard,
+    "post-card": PostCard
   },
   directives: {},
   data() {
@@ -157,7 +157,7 @@ export default {
       interval: {},
       loading: false,
       postsShowing: 3,
-      links: ["2020", "2021"],
+      links: ["2020", "2021"]
     };
   },
   mounted() {
@@ -182,12 +182,12 @@ export default {
       //   this.postsShowing = this.postsShowing + 5;
       //   this.loading = false;
       // }, 500);
-    },
+    }
   },
   computed: {
     posts() {
       return this.$store.getters.posts;
-    },
+    }
   },
   filters: {
     reverse: function (array) {
@@ -197,8 +197,8 @@ export default {
       return array.filter(function (item) {
         return item.year === year;
       });
-    },
-  },
+    }
+  }
 };
 </script>
 

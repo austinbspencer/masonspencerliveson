@@ -36,7 +36,10 @@
       <v-row justify="center">
         <v-col cols="10">
           <v-card-text class="pt-3">
-            <div v-for="message in post.message">
+            <div
+              v-for="message,i in post.message"
+              :key="i"
+            >
               <div v-if="message.type === 'Paragraph'">
                 <div class="pb-3">
                   {{message.content}}
@@ -92,6 +95,7 @@
           text
           right
           absolute
+          :href="post.url"
         >
           View On Facebook
         </v-btn>
@@ -112,8 +116,8 @@ export default {
         { title: "Click Me" },
         { title: "Click Me" },
         { title: "Click Me" },
-        { title: "Click Me 2" },
-      ],
+        { title: "Click Me 2" }
+      ]
     };
   },
   mounted() {},
@@ -121,8 +125,8 @@ export default {
   computed: {
     pfp() {
       return this.$store.getters.pfp;
-    },
-  },
+    }
+  }
 };
 </script>
 
