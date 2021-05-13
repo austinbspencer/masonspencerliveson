@@ -35,7 +35,7 @@
         </v-expansion-panel>
         <v-expansion-panel>
           <v-expansion-panel-header>
-            <strong>Diagnosed</strong>
+            <strong>Diagnosis</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <diagnose />
@@ -43,7 +43,7 @@
         </v-expansion-panel>
         <v-expansion-panel>
           <v-expansion-panel-header>
-            <strong>Treatments</strong>
+            <strong>Treatment</strong>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <treatments />
