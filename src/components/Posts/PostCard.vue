@@ -66,7 +66,7 @@
           bottom
           offset-y
         >
-          <template v-slot:activator="{ on, attrs }">
+          <template #activator="{ on, attrs }">
             <v-btn
               color="primary"
               :disabled="post.links.length === 0"
@@ -107,9 +107,9 @@
 <script>
 export default {
   name: "Postcard",
-  props: ["post"],
   components: {},
   directives: {},
+  props: ["post"],
   data() {
     return {
       items: [
@@ -120,13 +120,13 @@ export default {
       ]
     };
   },
-  mounted() {},
-  methods: {},
   computed: {
     pfp() {
       return this.$store.getters.pfp;
     }
-  }
+  },
+  mounted() {},
+  methods: {}
 };
 </script>
 

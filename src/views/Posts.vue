@@ -1,53 +1,54 @@
 <template>
+  <!-- eslint-disable vue/no-use-v-if-with-v-for -->
   <v-container>
     <v-row class="mt-10 mb-10">
       <v-col>
         <v-btn-toggle
-          color="primary"
           v-model="toggle_posts"
+          color="primary"
         >
 
           <v-btn
             v-model="recent"
-            @click="year = null"
             text
+            @click="year = null"
           >
             Recent
           </v-btn>
           <v-btn
             v-model="oldest"
-            @click="year = null"
             text
+            @click="year = null"
           >
             Oldest
           </v-btn>
           <v-btn
-            @click="year = '2017'"
             text
+            @click="year = '2017'"
           >
             2017
           </v-btn>
           <v-btn
-            @click="year = '2018'"
             text
+            @click="year = '2018'"
           >
             2018
           </v-btn>
           <v-btn
-            @click="year = '2019'"
             text
+            @click="year = '2019'"
           >
             2019
           </v-btn>
           <v-btn
-            @click="year = '2020'"
             text
+            @click="year = '2020'"
           >
             2020
           </v-btn>
           <v-btn
-            @click="year = '2021'"
             text
+            @click="year = '2021'"
           >
             2021
           </v-btn>
@@ -80,8 +81,8 @@
       </v-col>
     </v-row>
     <div
-      v-if="recent || (!oldest && year === null)"
       v-for="post,i in posts"
+      v-if="recent || (!oldest && year === null)"
       :key="`recent-${i}`"
     >
       <div v-show="i < postsShowing">
@@ -89,8 +90,8 @@
       </div>
     </div>
     <div
-      v-if="oldest"
       v-for="post,i in $options.filters.reverse(posts)"
+      v-if="oldest"
       :key="`oldest-${i}`"
     >
       <div v-show="i < postsShowing">
@@ -98,8 +99,8 @@
       </div>
     </div>
     <div
-      v-if="year !== null"
       v-for="post,i in $options.filters.year(posts, year)"
+      v-if="year !== null"
       :key="`years-${i}`"
     >
       <div v-show="i < postsShowing">
@@ -133,7 +134,6 @@
       </v-col>
     </v-row>
   </v-container>
-  </div>
 </template>
 
 
@@ -146,6 +146,16 @@ export default {
     "post-card": PostCard
   },
   directives: {},
+  filters: {
+    reverse: function (array) {
+      return array.slice().reverse();
+    },
+    year: function (array, year) {
+      return array.filter(function (item) {
+        return item.year === year;
+      });
+    }
+  },
   data() {
     return {
       value: 0,
@@ -159,6 +169,11 @@ export default {
       postsShowing: 3,
       links: ["2020", "2021"]
     };
+  },
+  computed: {
+    posts() {
+      return this.$store.getters.posts;
+    }
   },
   mounted() {
     this.$store.commit("drawer", false);
@@ -182,21 +197,6 @@ export default {
       //   this.postsShowing = this.postsShowing + 5;
       //   this.loading = false;
       // }, 500);
-    }
-  },
-  computed: {
-    posts() {
-      return this.$store.getters.posts;
-    }
-  },
-  filters: {
-    reverse: function (array) {
-      return array.slice().reverse();
-    },
-    year: function (array, year) {
-      return array.filter(function (item) {
-        return item.year === year;
-      });
     }
   }
 };

@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "deploy": "node scripts/gh-pages-deploy.js",
-    "gh-pages-deploy": "node scripts/gh-pages-deploy.js"
+    "gh-pages-deploy": "node scripts/gh-pages-deploy.js",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "babel-eslint": "^10.1.0",
