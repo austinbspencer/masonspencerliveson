@@ -82,16 +82,8 @@
       <v-btn fab elevation="1" icon @click="darkMode()">
         <v-icon class="secondary--text">mdi-invert-colors</v-icon>
       </v-btn>
-      <template v-if="$route.name == 'Our Story'" #extension>
-        <v-tabs v-model="tab" align-with-title dark>
-          <v-tabs-slider color="yellow"></v-tabs-slider>
-
-          <v-tab v-for="item in information" :key="item.title" :to="item.to">
-            {{ item.title }}
-          </v-tab>
-        </v-tabs>
-      </template>
     </v-app-bar>
+
     <!-- Button that appears once you start scrolling on the page that will take you to the top -->
     <v-fab-transition>
       <v-btn
@@ -114,15 +106,13 @@
 <script>
 export default {
   name: "Menu",
+  components: {},
   data: () => ({
     fab: false,
   }),
   computed: {
     items() {
       return this.$store.getters.items;
-    },
-    information() {
-      return this.$store.getters.information;
     },
     status: {
       get() {

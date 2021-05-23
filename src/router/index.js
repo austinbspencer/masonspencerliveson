@@ -12,7 +12,7 @@ const routes = [
   },
   {
     path: "/about/mason",
-    name: "Our Story",
+    name: "Mason Story",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -21,7 +21,7 @@ const routes = [
   },
   {
     path: "/about/austin",
-    name: "Our Story",
+    name: "Austin Story",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -30,7 +30,7 @@ const routes = [
   },
   {
     path: "/about/hlh",
-    name: "Our Story",
+    name: "HLH Info",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -39,7 +39,7 @@ const routes = [
   },
   {
     path: "/about/xlp2",
-    name: "Our Story",
+    name: "XLP2 Info",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.

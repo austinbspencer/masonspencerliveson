@@ -5,7 +5,7 @@
         <austin-bio />
       </v-col>
       <v-col cols="10" md="6" lg="6" xl="6">
-        <carousel-card />
+        <carousel-card :images="images" />
       </v-col>
     </v-row>
   </div>
@@ -23,7 +23,9 @@ export default {
   },
   directives: {},
   data() {
-    return {};
+    return {
+      images: ["austin-1.jpg", "austin-2.jpg"],
+    };
   },
   mounted() {},
   methods: {},
