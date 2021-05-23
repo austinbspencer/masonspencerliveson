@@ -4,6 +4,7 @@ import Vuex from "vuex";
 Vue.use(Vuex);
 
 import allPosts from "./json/out.json";
+const sorter = require("./helper/sort.js");
 
 export default new Vuex.Store({
   state: {
@@ -55,7 +56,7 @@ export default new Vuex.Store({
       return state.pfp;
     },
     posts(state) {
-      return state.posts;
+      return state.posts.sort(sorter.json("full_date"));
     },
     information(state) {
       return state.information;
