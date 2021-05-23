@@ -1,7 +1,196 @@
 [
     {
+        "date": "February 06",
+        "year": "2017",
+        "full_date": "2017-02-06",
+        "pfp": "pfp.jpeg",
+        "author": "Mason Spencer Lives On",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=594034097473367&id=418764678333644",
+        "attachments": "https://scontent.fphx1-2.fna.fbcdn.net/v/t1.18169-9/16194872_594033074140136_4677637827032948594_n.jpg?_nc_cat=104&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=aIGowKbO0jIAX_hFNZ8&_nc_ht=scontent.fphx1-2.fna&oh=de8523c490fd51eb138282f4ed3fa611&oe=60BA4507",
+        "links": [
+            {
+                "title": "Link 1",
+                "url": "https://www.facebook.com/permalink.php?story_fbid=594034097473367&id=418764678333644"
+            }
+        ],
+        "message": [
+            {
+                "content": "Happy 17th birthday Mason!",
+                "type": "Paragraph"
+            },
+            {
+                "content": "You are always loved, never forgotten, forever missed \u2764\ufe0f",
+                "type": "Paragraph"
+            },
+            {
+                "content": "Many more pictures here **The link is \"Link 1\" at the bottom of this post!**",
+                "type": "Paragraph"
+            }
+        ]
+    },
+    {
+        "date": "March 15",
+        "year": "2017",
+        "full_date": "2017-03-15",
+        "pfp": "pfp.jpeg",
+        "author": "Mason Spencer Lives On",
+        "url": "https://www.facebook.com/418764678333644/photos/a.420726278137484/617737191769724",
+        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.18169-9/17353223_617737191769724_7935057493596458044_n.jpg?_nc_cat=111&_nc_map=control&ccb=1-3&_nc_sid=9267fe&_nc_ohc=BDhu4gBseuYAX9kIqT-&_nc_ht=scontent.fphx1-1.fna&oh=fb7f74c01ca718ad0ab7c5a8107b63c4&oe=60BBB684",
+        "links": [],
+        "message": [
+            {
+                "content": "Sedona, AZ",
+                "type": "Paragraph"
+            }
+        ]
+    },
+    {
+        "date": "February 06",
+        "year": "2017",
+        "full_date": "2017-02-06",
+        "pfp": "pfp.jpeg",
+        "author": "Mason Spencer Lives On",
+        "url": "https://www.facebook.com/418764678333644/photos/a.420726278137484/600799876796789",
+        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.18169-9/16426168_600799876796789_1879665140537170005_n.jpg?_nc_cat=109&_nc_map=control&ccb=1-3&_nc_sid=9267fe&_nc_ohc=yUqo8tGttckAX9b2QY9&_nc_ht=scontent.fphx1-1.fna&oh=05b95871ed6147b94c5c15e14914f09c&oe=60B8ACF8",
+        "links": [],
+        "message": [
+            {
+                "content": "This weekend I attended a fundraiser for HLH. It was a trivia night in St Louis put on by the Matthew and Andrew Akin Foundation. For one round, the questions were about survivor and angel children that have previously been ridden for in the 700 mile ride. Some were easy answers like Mason's. Other were not as simple. (See attached picture)",
+                "type": "Paragraph"
+            },
+            {
+                "content": "Please remember someone needs blood every two seconds and there are 14,000 patients waiting on a donor to appear in the marrow database. So go give blood every 56 days and join be the match!",
+                "type": "Paragraph"
+            }
+        ]
+    },
+    {
+        "date": "August 26",
+        "year": "2020",
+        "full_date": "2020-08-26",
+        "pfp": "pfp.jpeg",
+        "author": "Mason Spencer Lives On",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=1443318885878213&id=418764678333644",
+        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/118310982_3062553237199952_4296349782857071347_n.jpg?_nc_cat=110&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=OOTXcaaNWfoAX-jZh6f&_nc_ht=scontent.fphx1-1.fna&oh=a097ddaf0b8a4b6ea7ad2f768b19e195&oe=60B896FC",
+        "links": [],
+        "message": []
+    },
+    {
+        "date": "May 21",
+        "year": "2020",
+        "full_date": "2020-05-21",
+        "pfp": "pfp.jpeg",
+        "author": "Mason Spencer Lives On",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=1362911230585646&id=418764678333644",
+        "attachments": "https://scontent.fphx1-2.fna.fbcdn.net/v/t1.6435-9/99014211_1362910357252400_6556974099464192000_n.jpg?_nc_cat=101&_nc_map=control&ccb=1-3&_nc_sid=730e14&_nc_ohc=phVjPjK99BsAX-4GCRR&_nc_ht=scontent.fphx1-2.fna&oh=a4e90656c805ca01debb0b9e699ed156&oe=60B90721",
+        "links": [
+            {
+                "title": "Link 1",
+                "url": "https://www.youtube.com/watch?v=1gyGoEbPYtU&feature=youtu.be"
+            }
+        ],
+        "message": [
+            {
+                "content": "Each year Mason Spencer Lives On Foundation presents a $500 scholarship to a Tri Valley senior that has the most \u201cMason characteristics\u201d. We would like to announce this years winner....Drew Kitterman.",
+                "type": "Paragraph"
+            },
+            {
+                "content": "Drew will be attending Colorado State University where he plans to major in Business.",
+                "type": "Paragraph"
+            },
+            {
+                "content": "Congratulations Drew!",
+                "type": "Paragraph"
+            },
+            {
+                "content": "Unfortunately the award ceremony was online this year so we were not able to congratulate Drew in person. Mason's scholarship announcement is around the 28:45 mark.  **The link is \"Link 1\" at the bottom of this post!**",
+                "type": "Paragraph"
+            }
+        ]
+    },
+    {
+        "date": "September 07",
+        "year": "2020",
+        "full_date": "2020-09-07",
+        "pfp": "pfp.jpeg",
+        "author": "Mason Spencer Lives On",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=1453706828172752&id=418764678333644",
+        "attachments": "https://scontent.fphx1-2.fna.fbcdn.net/v/t1.6435-9/118824535_1453706724839429_1382847315687317487_n.jpg?_nc_cat=102&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=FqubQj69TK4AX8Ay8Cc&_nc_ht=scontent.fphx1-2.fna&oh=074583fe7f90650c2e976207c56131ab&oe=60BBB812",
+        "links": [],
+        "message": []
+    },
+    {
+        "date": "September 03",
+        "year": "2020",
+        "full_date": "2020-09-03",
+        "pfp": "pfp.jpeg",
+        "author": "Mason Spencer Lives On",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=1450320568511378&id=418764678333644",
+        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/118604117_3590864940958151_7348755308352155064_n.jpg?_nc_cat=111&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=X_kRqVOOHpUAX811XBX&_nc_ht=scontent.fphx1-1.fna&oh=5410c2c96db0a164b2dbab389cfef352&oe=60B9B290",
+        "links": [],
+        "message": []
+    },
+    {
+        "date": "September 02",
+        "year": "2020",
+        "full_date": "2020-09-02",
+        "pfp": "pfp.jpeg",
+        "author": "Mason Spencer Lives On",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=1449501525259949&id=418764678333644",
+        "attachments": "https://scontent.fphx1-2.fna.fbcdn.net/v/t1.6435-9/69357313_2224333754356610_1355483432280391680_n.jpg?_nc_cat=104&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=qz0xMBRoH0IAX9M-eGY&_nc_ht=scontent.fphx1-2.fna&oh=09a2dc713009a7808503274de5b94009&oe=60BA62E0",
+        "links": [],
+        "message": []
+    },
+    {
+        "date": "September 02",
+        "year": "2020",
+        "full_date": "2020-09-02",
+        "pfp": "pfp.jpeg",
+        "author": "Mason Spencer Lives On",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=1449613511915417&id=418764678333644",
+        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/118602388_3100590116730965_7218945098686185357_n.jpg?_nc_cat=107&_nc_map=control&ccb=1-3&_nc_sid=e3f864&_nc_ohc=KORl6vbiy6oAX8BMc7z&_nc_oc=AQlGg4RoA0lEosIXf-Zy5uAgXbZcs5DpzjGFufELDDq_Mn2-IZCLVhZAs9Zd0Bh90ZpsvFU8Rd2WKUqrMGEPJ5cp&_nc_ht=scontent.fphx1-1.fna&oh=f5948420f2703ad8e364faed305cebbd&oe=60BB734C",
+        "links": [],
+        "message": []
+    },
+    {
+        "date": "January 18",
+        "year": "2021",
+        "full_date": "2021-01-18",
+        "pfp": "pfp.jpeg",
+        "author": "Mason Spencer Lives On",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=1563570430519724&id=418764678333644",
+        "attachments": "https://scontent.fphx1-2.fna.fbcdn.net/v/t1.6435-9/140154441_1563570083853092_7172133497388044043_n.jpg?_nc_cat=100&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=Ky7znRBdEKsAX_9_8JF&_nc_ht=scontent.fphx1-2.fna&oh=8b8b1c340188c51b387eb5f5fb62b756&oe=60BB8489",
+        "links": [],
+        "message": [
+            {
+                "content": "Mason loved basketball and 8th grade was the last year he was able to play. The foundation presents the Mason Spencer Award each year at the final Tri-Valley Middle School assembly to an 8th grade boys basketball player.  Because Mason loved gift cards and took great pleasure in spending them, a $75 gift card is given for the award. This year due to Covid there was no assembly and while the winner was selected during Spring 2020, the announcement was delayed. The winner has now been given the award via Zoom and recorded for us to see. (Thanks Brent Ward!)",
+                "type": "Paragraph"
+            },
+            {
+                "content": "The winner is chosen by the coaches. This years winner was chosen based on qualities like Mason such as highly involved in Tri-Valley in activities such as student council and athletics, academically strong student, terrific work ethic, and perseverance to overcome challenges. He is a very worthy candidate and all around great kid.",
+                "type": "Paragraph"
+            },
+            {
+                "content": "The 2020 winner was Henry Masters.   Congratulations Henry!!",
+                "type": "Paragraph"
+            }
+        ]
+    },
+    {
+        "date": "September 10",
+        "year": "2020",
+        "full_date": "2020-09-10",
+        "pfp": "pfp.jpeg",
+        "author": "Mason Spencer Lives On",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=1455869594623142&id=418764678333644",
+        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/119181731_4925484367469085_6083501216621112782_n.png?_nc_cat=108&_nc_map=control&ccb=1-3&_nc_sid=730e14&_nc_ohc=bVYU-CqVcOcAX_EJIf_&_nc_ht=scontent.fphx1-1.fna&oh=a60952009169be712084ad22e44c3f61&oe=60B878C3",
+        "links": [],
+        "message": []
+    },
+    {
         "date": "January 22",
         "year": "2021",
+        "full_date": "2021-01-22",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1565912810285486&id=418764678333644",
@@ -64,116 +253,114 @@
         ]
     },
     {
-        "date": "January 18",
-        "year": "2021",
+        "date": "May 21",
+        "year": "2017",
+        "full_date": "2017-05-21",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=1563570430519724&id=418764678333644",
-        "attachments": "https://scontent.fphx1-2.fna.fbcdn.net/v/t1.6435-9/140154441_1563570083853092_7172133497388044043_n.jpg?_nc_cat=100&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=Ky7znRBdEKsAX_9_8JF&_nc_ht=scontent.fphx1-2.fna&oh=8b8b1c340188c51b387eb5f5fb62b756&oe=60BB8489",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=650997985110311&id=418764678333644",
+        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.18169-9/18556068_650997555110354_6893960319697355943_n.jpg?_nc_cat=110&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=2l_RN6dTLGsAX_L_Gnh&_nc_ht=scontent.fphx1-1.fna&oh=4918bc81f1230b1032fa0bae81f1354e&oe=60B9CAE5",
         "links": [],
         "message": [
             {
-                "content": "Mason loved basketball and 8th grade was the last year he was able to play. The foundation presents the Mason Spencer Award each year at the final Tri-Valley Middle School assembly to an 8th grade boys basketball player.  Because Mason loved gift cards and took great pleasure in spending them, a $75 gift card is given for the award. This year due to Covid there was no assembly and while the winner was selected during Spring 2020, the announcement was delayed. The winner has now been given the award via Zoom and recorded for us to see. (Thanks Brent Ward!)",
+                "content": "Last week we attended Tri-valley Academic Awards ceremony to announce this years winner of the Mason Spencer Award. Colt Baker will receive $500 towards his tuition at Illinois State University where he will major in business.  Congratulations Colt!",
                 "type": "Paragraph"
             },
             {
-                "content": "The winner is chosen by the coaches. This years winner was chosen based on qualities like Mason such as highly involved in Tri-Valley in activities such as student council and athletics, academically strong student, terrific work ethic, and perseverance to overcome challenges. He is a very worthy candidate and all around great kid.",
-                "type": "Paragraph"
-            },
-            {
-                "content": "The 2020 winner was Henry Masters.   Congratulations Henry!!",
+                "content": "Attached is a video describing the award and the winner, a picture with Colt, and also a picture of the perpetual plaque that will hang at the school.",
                 "type": "Paragraph"
             }
         ]
     },
     {
-        "date": "September 10",
-        "year": "2020",
+        "date": "June 03",
+        "year": "2017",
+        "full_date": "2017-06-03",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=1455869594623142&id=418764678333644",
-        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/119181731_4925484367469085_6083501216621112782_n.png?_nc_cat=108&_nc_map=control&ccb=1-3&_nc_sid=730e14&_nc_ohc=bVYU-CqVcOcAX_EJIf_&_nc_ht=scontent.fphx1-1.fna&oh=a60952009169be712084ad22e44c3f61&oe=60B878C3",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=657604094449700&id=418764678333644",
+        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.18169-9/18881862_657603674449742_1853407472999303081_n.jpg?_nc_cat=106&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=pfqLFvBZIc0AX9hw7x5&_nc_ht=scontent.fphx1-1.fna&oh=80eed3ac22872d1ed19755e7e8f5643a&oe=60B9FC57",
         "links": [],
-        "message": []
+        "message": [
+            {
+                "content": "This week Bart attended the final assembly at the Tri Valley Middle School. (Tamara was out of town.) At this assembly, the Mason Spencer Award, which is a plaque and $75 to Dicks Sporting Goods, was presented to this years winner. Mason loved to get gift cards so we felt this was a fitting gift.",
+                "type": "Paragraph"
+            },
+            {
+                "content": "The winner is chosen by the coaches and has to be an 8th grade basketball player. Mason loved basketball and 8th grade was the last year he was able to play. This winner is chosen based on qualities like Mason such as great work ethic, listens to coaches, never argues or complains, and puts the team first.",
+                "type": "Paragraph"
+            },
+            {
+                "content": "This years winner was Zac Creamean.   Congratulations Zac!!",
+                "type": "Paragraph"
+            }
+        ]
     },
     {
-        "date": "September 07",
-        "year": "2020",
+        "date": "July 07",
+        "year": "2018",
+        "full_date": "2018-07-07",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=1453706828172752&id=418764678333644",
-        "attachments": "https://scontent.fphx1-2.fna.fbcdn.net/v/t1.6435-9/118824535_1453706724839429_1382847315687317487_n.jpg?_nc_cat=102&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=FqubQj69TK4AX8Ay8Cc&_nc_ht=scontent.fphx1-2.fna&oh=074583fe7f90650c2e976207c56131ab&oe=60BBB812",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=849592991917475&id=418764678333644",
+        "attachments": null,
         "links": [],
-        "message": []
+        "message": [
+            {
+                "content": "A donation has been made!",
+                "type": "Paragraph"
+            },
+            {
+                "content": "Thanks to all our supporters throughout the past year and those participating in our fundraiser last year! Because of you, we were able to send $6000 to Cincinnati Childrens Medical Center this year. When we donate to CCHMC, they allow us to select where the money goes. We discuss with BMT doctors the different options and pick one or two that we feel would have benefited Mason. This year the money will be directed to two specific research efforts. Dr. Khandelwal's work targeting prevention of GI GVHD (gasteravintestinal graft vs host disease) and Dr. Marsh\u2019s XIAP work on targeted treatments. Mason had XIAP and he developed GI GVHD after his transplant so we are hopeful that this research will help those affected in the future.",
+                "type": "Paragraph"
+            }
+        ]
     },
     {
-        "date": "September 03",
-        "year": "2020",
+        "date": "May 18",
+        "year": "2018",
+        "full_date": "2018-05-18",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=1450320568511378&id=418764678333644",
-        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/118604117_3590864940958151_7348755308352155064_n.jpg?_nc_cat=111&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=X_kRqVOOHpUAX811XBX&_nc_ht=scontent.fphx1-1.fna&oh=5410c2c96db0a164b2dbab389cfef352&oe=60B9B290",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=814037168806391&id=418764678333644",
+        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/32824856_814037132139728_5556378699546230784_n.jpg?_nc_cat=110&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=6Hu3VjQFk6QAX-5cWVF&_nc_ht=scontent.fphx1-1.fna&oh=8c5878f79a3dccda1e847b5175b0e21f&oe=60B8C048",
         "links": [],
-        "message": []
+        "message": [
+            {
+                "content": "Each year we give a $500 scholarship to a Tri Valley senior that has the most \u201cMason characteristics\u201d.  This year it\u2019s Mason\u2019s graduating class so it was a hard year for the committee to pick a winner. Due to this fact we added an \u201caward\u201d to each nominee. It has a saying he had written in 6th grade on a pillow case they made and has his actual signature. Thanks to By the Lake Designs in Downs for creating this for us.",
+                "type": "Paragraph"
+            },
+            {
+                "content": "Now the important part of this.....we would again like to congratulate this years winner....Clayton Leipold. Clayton will be attending Cornell College and playing basketball.",
+                "type": "Paragraph"
+            }
+        ]
     },
     {
-        "date": "September 02",
-        "year": "2020",
+        "date": "May 20",
+        "year": "2019",
+        "full_date": "2019-05-20",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=1449613511915417&id=418764678333644",
-        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/118602388_3100590116730965_7218945098686185357_n.jpg?_nc_cat=107&_nc_map=control&ccb=1-3&_nc_sid=e3f864&_nc_ohc=KORl6vbiy6oAX8BMc7z&_nc_oc=AQlGg4RoA0lEosIXf-Zy5uAgXbZcs5DpzjGFufELDDq_Mn2-IZCLVhZAs9Zd0Bh90ZpsvFU8Rd2WKUqrMGEPJ5cp&_nc_ht=scontent.fphx1-1.fna&oh=f5948420f2703ad8e364faed305cebbd&oe=60BB734C",
-        "links": [],
-        "message": []
-    },
-    {
-        "date": "September 02",
-        "year": "2020",
-        "pfp": "pfp.jpeg",
-        "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=1449501525259949&id=418764678333644",
-        "attachments": "https://scontent.fphx1-2.fna.fbcdn.net/v/t1.6435-9/69357313_2224333754356610_1355483432280391680_n.jpg?_nc_cat=104&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=qz0xMBRoH0IAX9M-eGY&_nc_ht=scontent.fphx1-2.fna&oh=09a2dc713009a7808503274de5b94009&oe=60BA62E0",
-        "links": [],
-        "message": []
-    },
-    {
-        "date": "August 26",
-        "year": "2020",
-        "pfp": "pfp.jpeg",
-        "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=1443318885878213&id=418764678333644",
-        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/118310982_3062553237199952_4296349782857071347_n.jpg?_nc_cat=110&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=OOTXcaaNWfoAX-jZh6f&_nc_ht=scontent.fphx1-1.fna&oh=a097ddaf0b8a4b6ea7ad2f768b19e195&oe=60B896FC",
-        "links": [],
-        "message": []
-    },
-    {
-        "date": "May 21",
-        "year": "2020",
-        "pfp": "pfp.jpeg",
-        "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=1362911230585646&id=418764678333644",
-        "attachments": "https://scontent.fphx1-2.fna.fbcdn.net/v/t1.6435-9/99014211_1362910357252400_6556974099464192000_n.jpg?_nc_cat=101&_nc_map=control&ccb=1-3&_nc_sid=730e14&_nc_ohc=phVjPjK99BsAX-4GCRR&_nc_ht=scontent.fphx1-2.fna&oh=a4e90656c805ca01debb0b9e699ed156&oe=60B90721",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=1068667136676725&id=418764678333644",
+        "attachments": null,
         "links": [
             {
                 "title": "Link 1",
-                "url": "https://www.youtube.com/watch?v=1gyGoEbPYtU&feature=youtu.be"
+                "url": "https://www.facebook.com/418764678333644/videos/780925305623725"
             }
         ],
         "message": [
             {
-                "content": "Each year Mason Spencer Lives On Foundation presents a $500 scholarship to a Tri Valley senior that has the most \u201cMason characteristics\u201d. We would like to announce this years winner....Drew Kitterman.",
+                "content": "On the last day of school, Bart attended the final assembly for Tri Valley Middle School. (Tamara was in Cincinnati w Austin at appts.) At this assembly, the Mason Spencer Award, which is a plaque and $75 to Dicks Sporting Goods, was presented to this years winner. Mason loved to get gift cards so we feel this is a fitting gift.",
                 "type": "Paragraph"
             },
             {
-                "content": "Drew will be attending Colorado State University where he plans to major in Business.",
+                "content": "The winner is chosen by the coaches and has to be an 8th grade basketball player. Mason loved basketball and 8th grade was the last year he was able to play. This years winner was chosen based on qualities like Mason such as terrific work ethic, put team goals first before his own, and is a great kid both on and off the court.",
                 "type": "Paragraph"
             },
             {
-                "content": "Congratulations Drew!",
-                "type": "Paragraph"
-            },
-            {
-                "content": "Unfortunately the award ceremony was online this year so we were not able to congratulate Drew in person. Mason's scholarship announcement is around the 28:45 mark.  **The link is \"Link 1\" at the bottom of this post!**",
+                "content": "This years winner was Logan Petrilli.   Congratulations Logan!! **The link is \"Link 1\" at the bottom of this post!**",
                 "type": "Paragraph"
             }
         ]
@@ -181,6 +368,7 @@
     {
         "date": "January 22",
         "year": "2020",
+        "full_date": "2020-01-22",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1266254870251283&id=418764678333644",
@@ -214,36 +402,9 @@
         ]
     },
     {
-        "date": "May 20",
-        "year": "2019",
-        "pfp": "pfp.jpeg",
-        "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=1068667136676725&id=418764678333644",
-        "attachments": null,
-        "links": [
-            {
-                "title": "Link 1",
-                "url": "https://www.facebook.com/418764678333644/videos/780925305623725"
-            }
-        ],
-        "message": [
-            {
-                "content": "On the last day of school, Bart attended the final assembly for Tri Valley Middle School. (Tamara was in Cincinnati w Austin at appts.) At this assembly, the Mason Spencer Award, which is a plaque and $75 to Dicks Sporting Goods, was presented to this years winner. Mason loved to get gift cards so we feel this is a fitting gift.",
-                "type": "Paragraph"
-            },
-            {
-                "content": "The winner is chosen by the coaches and has to be an 8th grade basketball player. Mason loved basketball and 8th grade was the last year he was able to play. This years winner was chosen based on qualities like Mason such as terrific work ethic, put team goals first before his own, and is a great kid both on and off the court.",
-                "type": "Paragraph"
-            },
-            {
-                "content": "This years winner was Logan Petrilli.   Congratulations Logan!! **The link is \"Link 1\" at the bottom of this post!**",
-                "type": "Paragraph"
-            }
-        ]
-    },
-    {
         "date": "May 21",
         "year": "2019",
+        "full_date": "2019-05-21",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1058794600997312&id=418764678333644",
@@ -267,153 +428,12 @@
     {
         "date": "February 28",
         "year": "2019",
+        "full_date": "2019-02-28",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "https://www.facebook.com/permalink.php?story_fbid=1021635301379909&id=418764678333644",
         "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/52778865_10156819297130977_8534189923702407168_n.jpg?_nc_cat=107&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=Fdcj3ccppBAAX-g1Y80&_nc_ht=scontent.fphx1-1.fna&oh=22a09e766483292dd0961af27cad6ff2&oe=60BBA095",
         "links": [],
         "message": []
-    },
-    {
-        "date": "July 07",
-        "year": "2018",
-        "pfp": "pfp.jpeg",
-        "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=849592991917475&id=418764678333644",
-        "attachments": null,
-        "links": [],
-        "message": [
-            {
-                "content": "A donation has been made!",
-                "type": "Paragraph"
-            },
-            {
-                "content": "Thanks to all our supporters throughout the past year and those participating in our fundraiser last year! Because of you, we were able to send $6000 to Cincinnati Childrens Medical Center this year. When we donate to CCHMC, they allow us to select where the money goes. We discuss with BMT doctors the different options and pick one or two that we feel would have benefited Mason. This year the money will be directed to two specific research efforts. Dr. Khandelwal's work targeting prevention of GI GVHD (gasteravintestinal graft vs host disease) and Dr. Marsh\u2019s XIAP work on targeted treatments. Mason had XIAP and he developed GI GVHD after his transplant so we are hopeful that this research will help those affected in the future.",
-                "type": "Paragraph"
-            }
-        ]
-    },
-    {
-        "date": "May 18",
-        "year": "2018",
-        "pfp": "pfp.jpeg",
-        "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=814037168806391&id=418764678333644",
-        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/32824856_814037132139728_5556378699546230784_n.jpg?_nc_cat=110&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=6Hu3VjQFk6QAX-5cWVF&_nc_ht=scontent.fphx1-1.fna&oh=8c5878f79a3dccda1e847b5175b0e21f&oe=60B8C048",
-        "links": [],
-        "message": [
-            {
-                "content": "Each year we give a $500 scholarship to a Tri Valley senior that has the most \u201cMason characteristics\u201d.  This year it\u2019s Mason\u2019s graduating class so it was a hard year for the committee to pick a winner. Due to this fact we added an \u201caward\u201d to each nominee. It has a saying he had written in 6th grade on a pillow case they made and has his actual signature. Thanks to By the Lake Designs in Downs for creating this for us.",
-                "type": "Paragraph"
-            },
-            {
-                "content": "Now the important part of this.....we would again like to congratulate this years winner....Clayton Leipold. Clayton will be attending Cornell College and playing basketball.",
-                "type": "Paragraph"
-            }
-        ]
-    },
-    {
-        "date": "June 03",
-        "year": "2017",
-        "pfp": "pfp.jpeg",
-        "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=657604094449700&id=418764678333644",
-        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.18169-9/18881862_657603674449742_1853407472999303081_n.jpg?_nc_cat=106&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=pfqLFvBZIc0AX9hw7x5&_nc_ht=scontent.fphx1-1.fna&oh=80eed3ac22872d1ed19755e7e8f5643a&oe=60B9FC57",
-        "links": [],
-        "message": [
-            {
-                "content": "This week Bart attended the final assembly at the Tri Valley Middle School. (Tamara was out of town.) At this assembly, the Mason Spencer Award, which is a plaque and $75 to Dicks Sporting Goods, was presented to this years winner. Mason loved to get gift cards so we felt this was a fitting gift.",
-                "type": "Paragraph"
-            },
-            {
-                "content": "The winner is chosen by the coaches and has to be an 8th grade basketball player. Mason loved basketball and 8th grade was the last year he was able to play. This winner is chosen based on qualities like Mason such as great work ethic, listens to coaches, never argues or complains, and puts the team first.",
-                "type": "Paragraph"
-            },
-            {
-                "content": "This years winner was Zac Creamean.   Congratulations Zac!!",
-                "type": "Paragraph"
-            }
-        ]
-    },
-    {
-        "date": "May 21",
-        "year": "2017",
-        "pfp": "pfp.jpeg",
-        "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=650997985110311&id=418764678333644",
-        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.18169-9/18556068_650997555110354_6893960319697355943_n.jpg?_nc_cat=110&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=2l_RN6dTLGsAX_L_Gnh&_nc_ht=scontent.fphx1-1.fna&oh=4918bc81f1230b1032fa0bae81f1354e&oe=60B9CAE5",
-        "links": [],
-        "message": [
-            {
-                "content": "Last week we attended Tri-valley Academic Awards ceremony to announce this years winner of the Mason Spencer Award. Colt Baker will receive $500 towards his tuition at Illinois State University where he will major in business.  Congratulations Colt!",
-                "type": "Paragraph"
-            },
-            {
-                "content": "Attached is a video describing the award and the winner, a picture with Colt, and also a picture of the perpetual plaque that will hang at the school.",
-                "type": "Paragraph"
-            }
-        ]
-    },
-    {
-        "date": "March 15",
-        "year": "2017",
-        "pfp": "pfp.jpeg",
-        "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/418764678333644/photos/a.420726278137484/617737191769724",
-        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.18169-9/17353223_617737191769724_7935057493596458044_n.jpg?_nc_cat=111&_nc_map=control&ccb=1-3&_nc_sid=9267fe&_nc_ohc=BDhu4gBseuYAX9kIqT-&_nc_ht=scontent.fphx1-1.fna&oh=fb7f74c01ca718ad0ab7c5a8107b63c4&oe=60BBB684",
-        "links": [],
-        "message": [
-            {
-                "content": "Sedona, AZ",
-                "type": "Paragraph"
-            }
-        ]
-    },
-    {
-        "date": "February 06",
-        "year": "2017",
-        "pfp": "pfp.jpeg",
-        "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/418764678333644/photos/a.420726278137484/600799876796789",
-        "attachments": "https://scontent.fphx1-1.fna.fbcdn.net/v/t1.18169-9/16426168_600799876796789_1879665140537170005_n.jpg?_nc_cat=109&_nc_map=control&ccb=1-3&_nc_sid=9267fe&_nc_ohc=yUqo8tGttckAX9b2QY9&_nc_ht=scontent.fphx1-1.fna&oh=05b95871ed6147b94c5c15e14914f09c&oe=60B8ACF8",
-        "links": [],
-        "message": [
-            {
-                "content": "This weekend I attended a fundraiser for HLH. It was a trivia night in St Louis put on by the Matthew and Andrew Akin Foundation. For one round, the questions were about survivor and angel children that have previously been ridden for in the 700 mile ride. Some were easy answers like Mason's. Other were not as simple. (See attached picture)",
-                "type": "Paragraph"
-            },
-            {
-                "content": "Please remember someone needs blood every two seconds and there are 14,000 patients waiting on a donor to appear in the marrow database. So go give blood every 56 days and join be the match!",
-                "type": "Paragraph"
-            }
-        ]
-    },
-    {
-        "date": "February 06",
-        "year": "2017",
-        "pfp": "pfp.jpeg",
-        "author": "Mason Spencer Lives On",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=594034097473367&id=418764678333644",
-        "attachments": "https://scontent.fphx1-2.fna.fbcdn.net/v/t1.18169-9/16194872_594033074140136_4677637827032948594_n.jpg?_nc_cat=104&_nc_map=control&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=aIGowKbO0jIAX_hFNZ8&_nc_ht=scontent.fphx1-2.fna&oh=de8523c490fd51eb138282f4ed3fa611&oe=60BA4507",
-        "links": [
-            {
-                "title": "Link 1",
-                "url": "https://www.facebook.com/permalink.php?story_fbid=594034097473367&id=418764678333644"
-            }
-        ],
-        "message": [
-            {
-                "content": "Happy 17th birthday Mason!",
-                "type": "Paragraph"
-            },
-            {
-                "content": "You are always loved, never forgotten, forever missed \u2764\ufe0f",
-                "type": "Paragraph"
-            },
-            {
-                "content": "Many more pictures here **The link is \"Link 1\" at the bottom of this post!**",
-                "type": "Paragraph"
-            }
-        ]
     }
 ]

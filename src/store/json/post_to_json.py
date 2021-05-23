@@ -53,6 +53,7 @@ def makeJson(filename):
     dict1 = {
         "date": "default",
         "year": "default",
+        "full_date": "default",
         "pfp": "pfp.jpeg",
         "author": "Mason Spencer Lives On",
         "url": "default",
@@ -77,6 +78,10 @@ def makeJson(filename):
                 # Add the year
                 elif line[:4] == 'year':
                     dict1['year'] = line[5:].rstrip()
+
+                # Add the year
+                elif line[:4] == 'dat3':
+                    dict1['full_date'] = line[5:].rstrip()
 
                 # Add attachments if there are any
                 elif line[:4] == 'attc':
@@ -114,31 +119,16 @@ def main():
     posts = 0
 
     # Get total number of posts
-    for _filename in os.listdir(directory):
+    for filename in os.listdir(directory):
         # checking if it is a file
         # if os.path.isfile(f):
         #     makeJson(f)
         posts += 1
-    i = 1
-
-    # Iterate through all posts
-    while i <= posts:
-        file_name = 'posts/post' + str(i) + '.txt'
-
+    
         # Call helper function with bulk of the algorithm
-        json_list.append(makeJson(file_name))
+        json_list.append(makeJson(filename=('posts/' + filename)))
 
-        # Output how far along the program is
-        # Completely unecessary and the sleep is needed because it builds so fast
-        if i % 5 == 0:
-            pct = float(i / posts) * 100
-            print(f'--> {pct}%')
-            time.sleep(1)
-        i += 1
-
-    # Output 100% complete if the total posts isn't % 5
-    if pct != 100.0:
-        print('--> 100.0%')
+    print("Finished adding ", posts, " posts")
 
     return json_list
 

@@ -1,5 +1,6 @@
 date July 07
 year 2018
+dat3 2018-07-07
 url https://www.facebook.com/permalink.php?story_fbid=849592991917475&id=418764678333644
 
 A donation has been made! 
