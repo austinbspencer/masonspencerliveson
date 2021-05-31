@@ -63,13 +63,24 @@
         </h4>
         <br />
         <h4>
-          To read his, and Austin’s, entire story with blogs go to
-          <a href="cotaforteamspencer.com">cotaforteamspencer. com</a> or
+          To read his, and Austin’s, entire story with blog updates go to the
+          Posts page on this website or
           <a
             href="https://www.facebook.com/Hope-for-Spencer-Boys-623432097701465/"
             >Hopeforspencerboys</a
           >
           on Facebook.
+        </h4>
+        <br />
+        <h4>
+          In honor of Mason, the fund Mason Spencer Lives On has been created
+          under the Illinois Prairie Community Foundation. It has been created
+          to provide miscellaneous scholarships in Tri-Valley school district
+          (Downs, Illinois) for the passions Mason had while he attended there,
+          to provide college scholarships for those who have had HLH (or a BMT
+          to prevent HLH) and to provide funds to non-profit organizations for
+          HLH, bone marrow transplants, immune disorders and blood diseases. We
+          also hope to raise awareness for HLH while doing this.
         </h4>
       </v-card-text>
     </v-card>
